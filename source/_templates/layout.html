@@ -1,0 +1,45 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+	<link rel="stylesheet" type="text/css" href="{{ pathto('_static/geomoose.css', 1) }}"/>
+{% endblock %}
+
+{% block relbar1 %}
+<div class="related">
+<br/>
+</div>
+{% endblock %}
+{% block relbar2 %}{% endblock %}
+
+{% block header %}
+<div style="background-color: white">
+	<!--<div style="float: left; padding: 30px 10px 15px 15px">-->
+
+	<div style="padding-top: 1em">
+		<div style="float: left">	
+			<a href="/"><img src="{{ pathto("_static/logo_2011.png", 1) }}" alt="GeoMOOSE Logo"/></a>
+		</div>
+		<div style="float: right; padding-top: 30px; padding-right: 5px">
+			<span style="font-decoration: italic; font-size: x-large">The Home of GeoMOOSE!</span><br/>
+		</div>
+	</div>
+
+	<div style="padding:10px; background-color: white; text-align: right; float: right; vertical-align: bottom;">
+		<span style="font-size: large">
+		<a href="{{ pathto('index') }}" title="Home">Home</a> |
+		<a href="http://www.geomoose.org/wiki/index.php/Main_Page" title="Wiki">Wiki</a> |
+		<a href="{{ pathto('info/demo') }}">Live Demo</a> |
+		<a href="{{ pathto('getting_started') }}">Getting Started</a> |
+		<a href="{{ pathto('docs/index') }}" title="GeoMOOSE Write-ups, Hows">Documentation</a> |
+		<a href="{{ pathto('developer/index') }}" title="GeoMOOSE Developer Documentation">Developers</a> |
+		<a href="http://trac.osgeo.org/geomoose/" title="GeoMOOSE Trac Instance">Bug Tracker</a> |
+		<a href="{{ pathto('info/download') }}" title="Download">Download </a>
+		</span>
+	</div>
+
+	<div style="clear: both"></div>
+
+
+	{{ super () }}
+</div>
+{% endblock %}

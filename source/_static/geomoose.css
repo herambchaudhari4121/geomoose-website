@@ -1,0 +1,25 @@
+/* dark green: #277b3c */
+
+body {
+	background-color: #dddddd; 
+}
+
+a {
+	color: #277b3c;
+}
+
+div.related ul li a {
+	color: #6dbe45;
+}
+
+h1 {
+	color: #277b3c;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+	background-color: #4B7455;
+}
+
+span.strikethrough { text-decoration: line-through; }
+
+span.highlight { background-color: yellow; }
