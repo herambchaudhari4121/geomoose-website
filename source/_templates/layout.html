@@ -22,19 +22,14 @@
 
 
 {% block header %}
-<div style="background-color: white">
-	<!--<div style="float: left; padding: 30px 10px 15px 15px">-->
-
-	<div style="padding-top: 1em">
-		<div style="float: left">	
-			<a href="/"><img src="{{ pathto("_static/logo_2011.png", 1) }}" alt="GeoMOOSE Logo"/></a>
-		</div>
-		<div style="float: right; padding-top: 30px; padding-right: 5px">
-			<span style="font-decoration: italic; font-size: x-large">The Home of GeoMOOSE!</span><br/>
-		</div>
+<div style="background-color: white; padding: 1em">
+	<div style="float: left">
+		<a href="/"><img src="{{ pathto("_static/logo_2011.png", 1) }}" alt="GeoMOOSE Logo"/></a>
 	</div>
 
 	<div class="header-links">
+		<span style="font-decoration: italic; font-size: x-large">The Home of GeoMOOSE!</span>
+		<br><br>
 		<a href="{{ pathto('index') }}" title="Home"><i class="icon-home"></i> Home</a> 
 		<!--
 		<a href="http://www.geomoose.org/wiki/index.php/Main_Page" title="Wiki">Wiki</a> 
@@ -50,10 +45,7 @@
 		-->
 		<a href="{{ pathto('info/download') }}" title="Download"><i class="icon-download"></i> Download</a>
 	</div>
-
 	<div style="clear: both"></div>
-
-
 	{{ super () }}
 </div>
 {% endblock %}

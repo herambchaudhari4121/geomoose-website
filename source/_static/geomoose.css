@@ -5,7 +5,9 @@ body {
 }
 
 .header-links {
-	padding:10px; background-color: white; text-align: right; float: right; vertical-align: bottom;
+	background-color: white;
+	text-align: right;
+	float: right;
 }
 
 a {
