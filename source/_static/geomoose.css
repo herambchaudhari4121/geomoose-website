@@ -14,6 +14,8 @@ a {
 
 .header-links a {
 	color: black;
+	font-size: 1.2em;
+	padding-left: .5em;
 }
 
 div.related ul li a {
