@@ -33,7 +33,7 @@ RFCs
 	RFC 1: Project Steering Committee Guidelines - Adopted <../rfc/rfc-1>
 	RFC 2: GeoMOOSE Project Mission (What is GeoMOOSE) - Adopted <../rfc/rfc-2>
 	RFC 3: GeoMOOSE Release Process - Adopted <../rfc/rfc-3>
-	RFC 4: GeoMOOSE Commit Management <../rfc/rfc-4>
+	RFC 4: GeoMOOSE Commit Management -Adopted <../rfc/rfc-4>
 	RFC 5: Modularize Core GeoMOOSE Services - Adopted <../rfc/rfc-5>
 
 *RFC Status values*
