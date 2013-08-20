@@ -9,13 +9,23 @@ body {
 }
 
 a {
-	color: #277b3c;
+	color: #6dbe45;
 }
 
 .header-links a {
 	color: black;
 	font-size: 1.2em;
 	padding-left: .5em;
+}
+
+.header-links a:hover {
+	color: #277b3c;
+}
+
+/* not my favorite centering hack, but it 
+   did make the image position look nicer. */
+.sphinxsidebarwrapper img {
+	margin-left: 25px;
 }
 
 div.related ul li a {
