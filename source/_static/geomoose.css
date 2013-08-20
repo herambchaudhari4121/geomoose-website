@@ -4,12 +4,24 @@ body {
 	background-color: #dddddd; 
 }
 
+.header-links {
+	padding:10px; background-color: white; text-align: right; float: right; vertical-align: bottom;
+}
+
 a {
 	color: #277b3c;
 }
 
+.header-links a {
+	color: black;
+}
+
 div.related ul li a {
 	color: #6dbe45;
+}
+
+div.related ul {
+	height: .5em;
 }
 
 h1 {
@@ -23,3 +35,7 @@ div.sphinxsidebar h3, div.sphinxsidebar h4 {
 span.strikethrough { text-decoration: line-through; }
 
 span.highlight { background-color: yellow; }
+
+div.footer {
+	background-color: #eee;
+}

@@ -2,11 +2,16 @@
 
 {% block extrahead %}
 	<link rel="stylesheet" type="text/css" href="{{ pathto('_static/geomoose.css', 1) }}"/>
+	<link rel="stylesheet" href="{{ pathto('_static/font-awesome/css/font-awesome.min.css', 1) }}">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="{{ pathto('_static/font-awesome/css/font-awesome-ie7.min.css', 1) }}">
+	<![endif]-->
+
 {% endblock %}
 
 {% block relbar1 %}
 <div class="related">
-<br/>
+	<ul></ul>
 </div>
 {% endblock %}
 {% block relbar2 %}{% endblock %}
@@ -29,16 +34,22 @@
 		</div>
 	</div>
 
-	<div style="padding:10px; background-color: white; text-align: right; float: right; vertical-align: bottom;">
+	<div class="header-links">
 		<span style="font-size: large">
-		<a href="{{ pathto('index') }}" title="Home">Home</a> |
-		<a href="http://www.geomoose.org/wiki/index.php/Main_Page" title="Wiki">Wiki</a> |
-		<a href="{{ pathto('info/demo') }}">Live Demo</a> |
-		<a href="{{ pathto('getting_started') }}">Getting Started</a> |
-		<a href="{{ pathto('docs/index') }}" title="GeoMOOSE Write-ups, Hows">Documentation</a> |
-		<a href="{{ pathto('developer/index') }}" title="GeoMOOSE Developer Documentation">Developers</a> |
-		<a href="http://trac.osgeo.org/geomoose/" title="GeoMOOSE Trac Instance">Bug Tracker</a> |
-		<a href="{{ pathto('info/download') }}" title="Download">Download </a>
+		<a href="{{ pathto('index') }}" title="Home"><i class="icon-home"></i> Home</a> 
+		<!--
+		<a href="http://www.geomoose.org/wiki/index.php/Main_Page" title="Wiki">Wiki</a> 
+		-->
+		<a href="http://demo.geomoose.org/"><i class="icon-globe"></i> Demo</a> 
+		<!--
+		<a href="{{ pathto('getting_started') }}">Getting Started</a> 
+		-->
+		<a href="http://docs.geomoose.org/" title="GeoMOOSE Write-ups, Hows"><i class="icon-book"></i> Documentation</a> 
+		<a href="{{ pathto('developer/index') }}" title="GeoMOOSE Developer Documentation"><i class="icon-wrench"></i> Developers</a> 
+		<!--
+		<a href="http://trac.osgeo.org/geomoose/" title="GeoMOOSE Trac Instance">Bug Tracker</a> 
+		-->
+		<a href="{{ pathto('info/download') }}" title="Download"><i class="icon-download"></i> Download</a>
 		</span>
 	</div>
 
