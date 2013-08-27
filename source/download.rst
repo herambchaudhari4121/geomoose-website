@@ -34,23 +34,28 @@ Other Packages
 
 If you're having problems with the download links above or are looking for an older package `check here <http://www.geomoose.org/downloads/>`_
 
-Documentation
-^^^^^^^^^^^^^^^^^
-A PDF of the documentation can be found `for download <http://www.geomoose.org/trunk/GeoMOOSE.pdf>`_
-
 MS4W Installation Note
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Prior to unzipping the folder, please ensure you have the MS4W package installed on configured. There are installation instructions located :doc:`here </docs/install_ms4w>`.
+Prior to unzipping the folder, please ensure you have the MS4W package installed on configured. There are installation instructions located `here <http://docs.geomoose.org/docs/install_ms4w.html>`_.
 
 Note: The MS4W package can also be downloaded from http://www.maptools.org.
 
 If you are upgrading from a previous GeoMOOSE version, ensure you back up all files prior to extracting this zip archive.
 
 
-SVN
----
+Source Code
+-----------
 
-OSGeo graciously hosts our SVN repository.  Trunk may be checked out from: https://svn.osgeo.org/geomoose/geomoose2/trunk
+GeoMOOSE versions after 2.6.1 are managed in Git.  Earlier versions are available via SVN.
+
+Git
+^^^
+The official GeoMOOSE repository is available at https://github.com/geomoose/geomoose.
+
+SVN
+^^^
+
+OSGeo graciously hosts our SVN repository.  https://svn.osgeo.org/geomoose/geomoose2
 
 The entire repository, including sandboxes and GeoMOOSE 1.X series code may be viewed from `here <http://trac.osgeo.org/geomoose/browser>`_.

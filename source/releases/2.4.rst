@@ -1,0 +1,25 @@
+.. _2.4_Release:
+
+GeoMOOSE 2.4 Release
+====================
+
+Features
+--------
+
+	* Fix to measure tool when negative areas were involved.
+	* Fix when using web mercator layers and switching between web mercator display and "none."
+	* New "geomoose.html" and "geomoose_dev.html".  "geomoose.html" uses compiled.js while "geomoose_dev.html" uses "all_php.js".  This is to setup a future model where we will use a dynamic Javascriprt loader in the "dev" which will be much slower and for non-production use.
+	* Printing scales have been fixed.  The old "preserve" has been deprecated as it was not working on some WMS services.  Instead the user can choose to use the current map scale or a selected printing scale.  Administrators can configure the available printing scales in the mapbook.
+	* ** In trunk, the dbase dependency has been removed from select.php. ** The new dependency works with MS4W and uses SQLite to create the necessary temporary files to make select.php and mailing_labels.php function properly.  This will break your PHP 5.2.X installation unless you already have PDO/SQLite installed.
+	* Multiple default configuration parameters have been reintegrated with the mainline code for those doing custom installations not based on the demos.
+	* "ajax_select" input type now works as per the docs.
+	* Fixed bug when switching base-layer types loses extent.
+	* Created an onMapbookLoaded event that can be used by user extensions.
+
+Upgrade Advisements
+-------------------
+
+	* This removes the use of DBF files from select.php and mailing_labels.php.  In order to do this, we created a dependency on PDO with the SQLite plug-in.  The latest version of MS4W (3.0.1) supports this functionality.
+	* Configuration files should not need to be changed to support this upgrade.  This should be a lateral upgrade with no chnages necessary to your mapbooks or settings.ini
+
+

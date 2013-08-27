@@ -1,0 +1,23 @@
+GeoMOOSE 2.2 Release
+====================
+
+Features:
+---------
+
+	* Google, Bing, Yahoo, ArcGIS Server Cache Layers!
+	* A new super-query service!
+	* User Extensions
+	* Better, Customizable Input Types
+	* More bug fixes!
+	* Bug fixes to the Geocoder and Popup Services
+	* Addition of Feature Report service
+
+You might be asking your self the following questions:
+------------------------------------------------------
+	1) Is it worth the upgrade?
+	Yes.
+
+	2) Is this the version that should convince me to upgrade from 1.X to 2.X?
+	Yeah, this is definitely a worthwhile upgrade.  The User Extensiosn and Custom Input types have really advanced customizations unavailable in the 1.X series of releases.
+
+

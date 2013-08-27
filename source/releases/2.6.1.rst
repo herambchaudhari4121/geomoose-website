@@ -1,0 +1,16 @@
+.. _2.6.1_Release:
+
+GeoMOOSE 2.6.1 Release
+======================
+
+Enhancements and Bug Fixes
+--------------------------
+
+ * Made OpenLayers transition effects available and increased layer configurability. (#66, #127, #169)
+ * A number of improvements to the operation and functionality of query.php.  (#101, #107, #110, #119, #158, #166, #170, #151, #177) 
+ * Documented Startup Parameters (#111)
+ * Added support for configurable time zones (#141)
+ * Idenify can now include invisible layers (#172)
+ * Support for ArcGIS Server layers (#147, #160)
+ * Fixed a set of legending issues such as not showing for some layers, added back the support for static legends, and fixed legends not updating. (#133, #160, #161)
+ * Any many more!  The full list is available here `on the GeoMOOSE Trac! <http://trac.osgeo.org/geomoose/query?status=accepted&status=assigned&status=closed&status=kibbitz&status=needs_work&status=new&status=reopened&status=testing&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=id&version=2.6&milestone=2.6.1>`_

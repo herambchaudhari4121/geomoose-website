@@ -1,0 +1,30 @@
+GeoMOOSE 2.0.1 Release
+======================
+
+Features:
+---------
+	* A multitude of bug fixes.
+	* Sketching/Redlining Tools
+	* Improved Printing Configuration
+	* Improved Demo
+	* Upgrade to OpenLayers 2.8
+	* autotools based configuration/installation.
+
+Install Instructions for UNIX/Linux have been added:
+----------------------------------------------------
+http://www.geomoose.org/docs/install_unix.html
+
+You might be asking your self the following questions:
+------------------------------------------------------
+	1) Is it worth the upgrade?
+	Yes.
+
+	2) Is the upgrade as painful as upgrading old GeoMOOSE 1.X.X versions? 
+	No! You should not have to change your mapbook at all.  You should back up your settings.ini and verify changes there.
+
+	3) Is this the version that should convince me to upgrade from 1.X to 2.X?
+	Probably, but 2.2 will be coming soon and that will be even more worthwhile with additional bug fixes and a few additional features.
+
+	4) Are there still bugs?
+	Yep, we even know about a bunch of them and are working on fixing them.
+

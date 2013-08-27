@@ -23,6 +23,12 @@ API Docs are avilable `here <http://docs.geomoose.org/trunk/api/>`_. The API doc
 Version specific API documentation is included with each install.
 
 
+How To's
+--------
+.. toctree::
+	:maxdepth: 1
+	
+	release	
 
 RFCs
 -----
