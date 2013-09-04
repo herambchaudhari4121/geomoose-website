@@ -1,0 +1,8 @@
+GeoMOOSE
+********
+
+The file you were looking for was not found.
+============================================
+
+We recently reorganized our site.  Most notably we split the `software documentation <http://docs.geomoose.org>`_ from the project's main `web page <http://www.geomoose.org>`_.
+
