@@ -8,7 +8,7 @@ GeoMOOSE 2.X
 
 GeoMOOSE 2.6.1 is the latest release version.
 	* `Download GeoMOOSE 2.6.1 <http://www.geomoose.org/downloads/geomoose-2.6.1.tar.gz>`_
-	* `Download GeoMOOSE 2.6.1 for MS4W <http://www.geomoose.org/downloads/GeoMOOSE-2.6.1-MS4W.zip>`_
+	* `Download GeoMOOSE 2.6.1 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.6.1-MS4W.zip>`_
 
 GeoMOOSE 2.4 is the previous release in the GeoMOOSE series.
 	* `Download GeoMOOSE 2.4 <http://www.geomoose.org/downloads/geomoose-2.4.tar.gz>`_
