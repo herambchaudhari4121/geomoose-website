@@ -18,7 +18,7 @@ environment are available in `README.md <https://github.com/geomoose/geomoose/bl
 API Docs
 --------
 
-API Docs are avilable `here <http://docs.geomoose.org/master/apidocs/>`_. The API docs reference trunk.  
+API Docs are avilable `here <http://docs.geomoose.org/master/apidocs/>`_. The API docs reference master.  
 
 Version specific API documentation is included with each install.
 
