@@ -27,8 +27,10 @@ How To's
 --------
 .. toctree::
 	:maxdepth: 1
-	
-	release	
+
+	contribute
+	standards	
+	release
 
 RFCs
 -----
