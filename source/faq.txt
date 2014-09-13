@@ -1,0 +1,127 @@
+.. _faq:
+
+
+GeoMOOSE FAQ
+====================================
+
+This is the GeoMOOSE FAQ.  Feel free to suggest addtions on the email list.
+
+Why am I getting these pink tiles when I look at GeoMOOSE?
+-----------------------------------------------------------------------------------------------
+The pink tiles are displayed by OpenLayers since invalid data is provided to OpenLayers.  This is rarely if ever a GeoMOOSE error.  It is almost always a mapfile error.  There are several ways to troubleshoot this.  One is to directly load the pink image tile (firefox: Tools-->Page Info-->Media-->copy address and put into new tab or use firebug or other debugging tools) a mapfile error is often returned by MapServer (if your browser returns mapserv.exe, save it and open it in a text editor, it is really an error message written in xml that your browser is misinterpreting.).  This is typically a typo, syntax error, wrong path to the data, or something else in the mapfile.  You will need to troubleshoot your mapfile until it works.  If you want to remove GeoMOOSE from the troubleshooting equation, you can use shp2img or other excellent troubleshooting tools in `MapServer <http://mapserver.org/optimization/debugging.html#step-5-test-your-mapfile>`_.
+
+.. _Why_no_results:
+
+Why are there no results for the Identify or Select service?
+-----------------------------------------------------------------------------------------------
+If you are working with a point or line layer, you will need to set some appropriate TOLERANCE in the mapfile. ::
+
+    LAYER
+    NAME "control"
+    DATA './data/control'
+    STATUS ON
+    TYPE point
+    TOLERANCE 50
+    TOLERANCEUNITS FEET
+    
+See also several past `email list threads <http://lists.osgeo.org/pipermail/geomoose-users/2012-September/004341.html>`_ and others.  See also `the MapServer documentation <http://mapserver.org/mapfile/layer.html#tolerance>`_.
+
+Who uses GeoMOOSE?
+-------------------------------------
+GeoMOOSE users come from all over the world and speak many languages.  One aspect that many of these users have in common is that they are system implementers (GIS Professionals), not professional web developers.  Many of these users like that GeoMOOSE delivers a complete application.  More advanced users may also like the rich, highly customizable API and web-services architecture.  At least a handful of GeoMOOSE users are making use of the distributed data maintenance tasks, in fact, much of GeoMOOSE's flexibility with respect to adding, managing and maintaining data behind the scenes, as well as it service integration aspects comes from the historical origins in exactly this use case.  In short, GeoMOOSE users are mostly GIS Professionals looking for a complete application. 
+
+.. _Why_doesn't_layers=all_work_anymore?:
+
+Why doesn't layers=all work anymore?
+-------------------------------------------------
+Changing to GeoMOOSE 2.6 breaks the <layer name="all"/> usage in mapbook.xml and gives me this error::
+
+    <ServiceException code="LayerNotDefined">
+    msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+    </ServiceException>
+
+This is due to changing the default type to WMS rather than MapServer.  The same thing can still be achieved, the .map files just need a little revision.  This is covered some in this `thread <http://lists.osgeo.org/pipermail/geomoose-users/2012-April/003922.html>`_ and referenced ticket.  For the record, here is what bobb wrote: 
+Johan,
+I don't think that "layers=all" is a valid WMS call parameter . . . A work around is mentioned in here related to GROUPS in the mapfile. http://trac.osgeo.org/mapserver/ticket/1603 -bobb
+
+How to use GeoMOOSE with IIS7+?
+-------------------------------------
+This is not well documented.  If you know IIS7, we are looking for documentaiton help on this.  For now, the best option is this `email thread <http://lists.osgeo.org/pipermail/geomoose-users/2012-May/004013.html>`_.
+
+Why is it sometimes hard to find something on the website?
+------------------------------------------------------------------------------------------------
+Not all material is directly obvious.  Try searching, it works really well and helps prevent the website from getting cluttered by putting everything at the front top.  
+
+Where is documentation to older versions?
+------------------------------------------------------------------------------------------------
+The current release is always available at `geomoose.org <http://docs.geomoose.org>`_.  Some older versions have documentation available at http://docs.geomoose.org/M(ajor).m(inor)/.  For instance, version 2.4 (while supported) is available at `docs.geomoose.org/2.4/ <http://docs.geomoose.org/2.4/>`_.  Master documenation is available at `docs.geomoose.org/master/ <http://docs.geomoose.org/master/>`_.
+
+How are the directories and files of the GeoMOOSE project organized?
+------------------------------------------------------------------------------------------------------------------------
+GeoMOOSE has many files and a good handful of folders.  Here is a guide to understand it, :ref:`structure`
+
+What are the dependencies of GeoMOOSE?
+--------------------------------------------------------------------
+Technically, almost nothing; a webserver and javascript supporting client webbrowsers.  More practically, the dependencies are MapServer, PHP, OpenLayers and DoJo ( both conveniently bundled), and some other supporting libraries.  You can see a little more detail here :ref:`install_unix`
+
+GeoMOOSE is supposed to be easy to set up but it seems difficult.  Why?
+------------------------------------------------------------------------------------------------------------------------
+Hopefully it is easy, however, that assumes a certain background of the user, namely, it is from the perspective of a GIS technician or Analyst.  If you don't know what a projection is, it will probably be somewhat difficult.  If you have no knowledge of html, MapServer, xml or similar technologies, it will be slightly harder but you should be able to make your way through by careful examination and copying of the demo (and probably some help from the email list).  
+
+Why do my numbers display too many decimal places?
+---------------------------------------------------------------------------------------------
+Sometime you may get identify or other display results like 2.1000000000000e-02.  Perhaps you want it displayed like a 'normal' number instead of scientific notation.  Here are some past threads that address that `2009 <http://lists.osgeo.org/pipermail/geomoose-users/2009-February/001065.html>`_, `2010 <http://lists.osgeo.org/pipermail/geomoose-users/2010-May/002231.html>`_, and `2012 <http://lists.osgeo.org/pipermail/geomoose-users/2012-June/004088.html>`_.  
+
+For example, to change the demo from Real (with 2 decimal places) to 1 decimal place, in your HTML file (i.e: /maps/demo/parcels/templates/identify_taxlot.html) change the following::
+
+	...
+	<tr>
+	<td><b>Acres:</b></td>
+	<td>[ACRES_POLY]</td>
+	</tr>
+	...
+ 
+to::
+ 
+	...
+	<tr>
+	<td><b>Acres:</b></td>
+	<td>[item name=ACRES_POLY precision=1]</td>
+	</tr>
+	...
+
+.. _How_should_I_report_a_bug?:
+
+How should I report a bug?
+--------------------------------------------------
+First make sure that there is not an `existing ticket for that problem <http://trac.osgeo.org/geomoose/report/1/>`_.  Second, search the email list to see if it has come up before and if it has a resolution or work around.  Make sure that you are using the most recent version of the software if it might have already been fixed.  Email the list clearly explaining the problem in specific detail.  Ideally, you can boil it down to a very simple small self contained example that other can easily replicate or possibly demostrate it on a publically accessible website like the `demo <http://www.geomoose.org/demo/geomoose.html>`_.  Once you have confirmed that it is a bug, `open a ticket <http://trac.osgeo.org/geomoose/newticket/>`_.  Opening a ticket requires logging in with your OSGeo userid, you can `sign up for an OSGeo userid <http://www.osgeo.org/osgeo_userid/>`_ if you don't already have one.  See also, the detailed :ref:`testing_reporting_ticketing`
+
+.. _How_should_I_request_an_enhancement?:
+
+How do I request an enhancement?
+-----------------------------------------------------------
+Bring up a discussion on the email list.  If it is very popular and feasible then an effort can be made to raise funds or otherwise develop the enhancement.  Requested enhancements can also be tracked in the ticket system.  See also, the detailed :ref:`testing_reporting_ticketing`
+
+How do I contribute funding?
+------------------------------------------------------------------
+Your support means the the GeoMOOSE project can keep improving and keeping up with the changes in the webmapping sphere.  Your support is important and appreciated.  Please consider the great value you receive from GeoMOOSE and try to contribute or become a sponsor.  Funding enhacements that benefit your project is one of the main ways that the project improves.  
+
+How do I contribute an enhacement?
+-------------------------------------------------------------
+Review :ref:`contribute` for specifics.  Then either start a discussion on the email list or open a ticket and attach a patch.  Please make your contribution with the same :ref:`license` included.
+
+How do I become a GeoMOOSE developer and get commit access to the GeoMOOSE subversion repository?
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Participate in the email list and community, file articulate tickets, attach patches to tickets that apply cleanly, demostrate an understanding of GeoMOOSE.  Once this has gone on for a while, someone will get tired of reviewing and applying your patches and make a motion to extend you commit access.  Feel free to nudge if needed.
+
+Why should I contribute to GeoMOOSE?
+----------------------------------------------------------------
+There are many ways to contribute to the GeoMOOSE project.  Here are some of the ways: contributing code, funding development or enhancements, assisting other users, promoting GeoMOOSE to similar users, writing documentation, or presenting GeoMOOSE at a conference.  Improving the project will help your project.  If you do a bunch of customization you might have to redo that when the next version comes out.  If you contribute your work in such a way that it becomes incorporated into the project, then it will be there waiting for you in the next version along with other additional and improved functionality that you will want.  
+
+Is it GeoMOOSE or GeoMoose?
+------------------------------------------------
+Technically it is GeoMOOSE.  Some people prefer the look of GeoMoose and it is certainly easier to type.  You can use either and be 'correct'.
+
+What is the GeoMOOSE license?
+-------------------------------------------------------
+See :ref:`license`
