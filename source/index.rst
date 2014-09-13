@@ -6,6 +6,8 @@ Welcome to GeoMOOSE
 
 Welcome to the GeoMOOSE website.  For first time users, we hope this site is easy to use and understand.  For returning users, we hope this is a pleasant new experience.  This new format for the website has been chosen for its ease of maintenance, ease of portability, and compact delivery size.
 
+.. include:: news.rst
+
 What is GeoMOOSE?
 -----------------
 GeoMOOSE is a Web Client JavaScript Framework for displaying distributed cartographic data.  GeoMOOSE has a number of strengths including modularity, configurability, and delivers a number of core functionalities in its packages.  GeoMOOSE is also very light weight for servers making it easy to handle a large number of users, with a large number of layers, and a large number of services without stressing a server.
@@ -53,6 +55,3 @@ GeoMOOSE Support
 
 	info/mailing_lists
 	info/commercial_support
-
-.. include:: news.rst
-
