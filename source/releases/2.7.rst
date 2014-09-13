@@ -1,7 +1,7 @@
 .. _2.7_Release:
 
-GeoMOOSE 2.7 Release
-======================
+GeoMOOSE 2.7 Release Notes
+==========================
 
 Enhancements and Bug Fixes
 --------------------------
