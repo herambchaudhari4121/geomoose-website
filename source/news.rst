@@ -1,6 +1,16 @@
 GeoMOOSE News
 =============
 
+
+11/12/2014 - GeoMOOSE Version 2.7 Released
+-----------------------------------------
+
+After few months of work, the GeoMOOSE project is excited to announce the 2.7.1 release!
+
+2.7.1 is a bugfix release for 2.7 which means it should be better than 2.7 in every way.
+
+Check the :ref:`2.7.1_Release` for more detail.
+
 9/13/2014 - GeoMOOSE Version 2.7 Released
 -----------------------------------------
 
