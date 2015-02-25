@@ -164,7 +164,20 @@ Initial members are:
 * Eli Adam
 * Brent Fraser
 
+Current Members
+---------------
+
+* Dan "Ducky" Little, Chair
+* Jim Klassen
+* Bob Basques
+* Brian Fischer 
+* Eli Adam
+* Brent Fraser
+* TC Haddad
+
+
 Voting History
 --------------------
 
-09/30/2011 - Adopted by votes from PSC.  +1: Brian, Jim, Dan, Bob, Eli and Brent
+* 09/30/2011 - Adopted by votes from PSC.  +1: Brian, Jim, Dan, Bob, Eli and Brent
+* 02/25/2015 - With +1's from Brian, James, Eli, Brent, Duck, Duck becomes Chair, TC Haddad added to PSC.
