@@ -1,0 +1,21 @@
+.. _2.8.0_Release:
+
+GeoMOOSE 2.8.0 Release Notes
+==========================
+
+Enhancements
+------------
+ * Auto-refresh layer based on time interval (#89)
+ * Update OpenLayers from 2.12 to 2.13.1.
+ * Add user defined help text to service definitions
+ * Optional client side buffering (requires the JSTS library)
+ * Make layer editing tools contextual (helpful if there are multiple editable layers).
+ * Optional Active Layers tab (like Visible Layers from GeoMoose 1.x)
+ * Restore Dynamic Zoom capability.
+
+Bug Fixes
+---------
+ * Fix issues with Google layers on mobile devices.
+ * Fix strange behavior that would allow multiple services/tools to be active at the same time.
+ * Improve usability of multiple mapbook support.
+ * `And more <https://github.com/geomoose/geomoose/issues?q=milestone%3A2.8+is%3Aclosed>`_
