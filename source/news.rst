@@ -1,9 +1,18 @@
 GeoMOOSE News
 =============
 
+6/20/2015 - GeoMOOSE Version 2.8.0 Released
+-------------------------------------------
 
-11/12/2014 - GeoMOOSE Version 2.7 Released
------------------------------------------
+The GeoMOOSE project is excited to announce the 2.8.0 release!
+
+2.8.0 fixes bugs that were in 2.7.1 and also includes some new exciting features.
+
+Check the :ref:`2.8.0_Release` for more details.
+
+
+11/12/2014 - GeoMOOSE Version 2.7.1 Released
+--------------------------------------------
 
 After few months of work, the GeoMOOSE project is excited to announce the 2.7.1 release!
 
