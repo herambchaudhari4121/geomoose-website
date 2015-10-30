@@ -11,6 +11,8 @@ Follow :ref:`rfc3` and this file
 
 * Update `VERSIONS.rst` to explicitly define the versions of PHP and MapServer used during development.  Recommendations on Apache and MS4W versions should also be present.
 
+* evaluate <mapbook version="#.#"> in mapbook.xml
+
 * Read the documentation and remove outdated parts.
 
 * Update FAQ (remove no longer relevant questions, add new questions).
