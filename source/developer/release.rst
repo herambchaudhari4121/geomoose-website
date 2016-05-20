@@ -97,6 +97,8 @@ Example procedure::
 	git checkout -b r2.7 origin/r2.7
 	git merge master
 	git add docs js services
+	# Update version in ms4w/Apache/htdocs/geomoose2.pkg.html
+	git add ms4w/Apache/htdocs/geomoose2.pkg.html
 	git commit -m 'Update for 2.7.1'
 	git tag r2.7.1
 	git push
