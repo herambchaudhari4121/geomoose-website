@@ -52,10 +52,16 @@ Example procedure::
 	git pull
 	git checkout -b r2.7 origin/r2.7
 	git merge master
+
 	# conflict in source/conf.py
 	# Fix release conflict on line in source/conf.py
-	#  change to 2.7.1
+	# and update version to 2.7.1
 	git add source/conf.py
+
+	# Update Configuration Docs
+	./doc_config_js.py > source/docs/configuration.txt
+	git add source/docs/configuration.txt
+	
 	git commit
 	git tag r2.7.1
 	git remote set-url --push origin git@github.com:geomoose/geomoose-docs.git
@@ -99,6 +105,8 @@ Example procedure::
 	git add docs js services
 	# Update version in ms4w/Apache/htdocs/geomoose2.pkg.html
 	git add ms4w/Apache/htdocs/geomoose2.pkg.html
+	# Evaluate if version in Mapbook needs to be updated
+	git add conf/mapbook.xml
 	git commit -m 'Update for 2.7.1'
 	git tag r2.7.1
 	git push
