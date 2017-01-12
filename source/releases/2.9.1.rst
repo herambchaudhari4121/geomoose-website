@@ -1,0 +1,12 @@
+.. _2.9.1_Release:
+
+GeoMOOSE 2.9.1 Release Notes
+==========================
+  
+Bug Fixes
+---------
+  * Add missing OSM attribution.
+  * Update commercial datasets in demo.
+  * Fix for unselectable tools.
+  * Fix for ResultsAsGrid extension with multiple data sources.
+  * `And more <https://github.com/geomoose/geomoose/issues?q=milestone%3A2.9.1+is%3Aclosed>`_

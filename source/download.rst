@@ -5,12 +5,16 @@ Downloads
 
 Current Version
 ---------------
+GeoMOOSE 2.9.2
+	* `Download GeoMOOSE 2.9.2 <http://www.geomoose.org/downloads/geomoose-2.9.2.tar.gz>`_
+	* `Download GeoMOOSE 2.9.2 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.9.2-MS4W.zip>`_
+
+GeoMOOSE 2.X
+------------
 GeoMOOSE 2.9.0
 	* `Download GeoMOOSE 2.9.0 <http://www.geomoose.org/downloads/geomoose-2.9.0.tar.gz>`_
 	* `Download GeoMOOSE 2.9.0 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.9.0-MS4W.zip>`_
 
-GeoMOOSE 2.X
-------------
 GeoMOOSE 2.8.1
 	* `Download GeoMOOSE 2.8.1 <http://www.geomoose.org/downloads/geomoose-2.8.1.tar.gz>`_
 	* `Download GeoMOOSE 2.8.1 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.8.1-MS4W.zip>`_
