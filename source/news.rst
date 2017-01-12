@@ -1,6 +1,13 @@
 GeoMOOSE News
 =============
 
+1/12/2017 - GeoMOOSE Version 2.9.2 Released
+-------------------------------------------
+
+GeoMOOSE 2.9.2 is a bug fix release that includes fixes for 2.9.1 and 2.9.2. (2.9.1 was never officially released).
+
+See :ref:`2.9.1_Release` and :ref:`2.9.2_Release` for details.
+
 5/19/2016 - GeoMOOSE Version 2.9.0 Released
 -------------------------------------------
 
