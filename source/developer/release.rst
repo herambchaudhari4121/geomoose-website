@@ -21,6 +21,8 @@ Follow :ref:`rfc3` and this file
 
 * Update documentation as needed keeping in mind that the versioned documentation on the website pulls from different Git branches of geomoose-docs.
 
+* Update copyright headers to current date (not exactly sure how to do this easily yet...)
+
 * Publish the release:
 
   * Generate the distribution files (see below).
