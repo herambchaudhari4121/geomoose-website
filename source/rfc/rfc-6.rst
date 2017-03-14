@@ -1,34 +1,34 @@
 .. _rfc6:
 
-RFC 6: Establish Fundraising Mechanisms for GeoMOOSE
+RFC 6: Establish Additional Funding Mechanisms for GeoMOOSE
 ====================================================================
 
 :Author: Dan "Ducky" Little
 :Contact: @theduckylittle
 :Status: Draft 
-:Last Updated: 13 March 2017
+:Last Updated: 14 March 2017
 
 
 Summary
 -----------
 
-Keeping the GeoMOOSE project lively requires that we need to explore multiple funding options.  While professional services have always been available they are not always the most accessible way for users to contribute to the project.  Given that not all users are techncial or have the time to contribute directly to project works, adding a funding agent and mechanism for taking small donations would allow more to people to contribute to the project.
+* Establish financial controls for administering project funds.
+* Facilitate easy financial contributions to hte GeoMOOSE project at all levels.
 
 Implementation Tasks
 -----------------------
 
-1. The PSC will select a funding agent via the RFC process.  
-   This will let the PSC have a public record of who is handling the funds as they are recieved.
+1. The PSC will select a fiscal agent by vote.  
 
-2. Expenditure history will be tracked on a Git repository available to the PSC.
+2. Expenditure history will be tracked on a Git repository available to the PSC.  The expenditure history should minimally include a summary of incoming funding, outgoing funds, and the voting record for expenditures. 
 
 3. All expenditures from incoming funds must be approved by a simple majority of the PSC.
 
-4. The PSC chair will be responsible for reporting funding balance at regularly PSC meetings.
+4. The PSC may reject/refund incoming funding by simple majority vote.
 
-5. Creation of online services and advertisement on the GeoMoose website.
-   After the funding agent and donation mechanism has been approved by the PSC, the website
-   should be updated to link users in that direction.
+5. The PSC chair will be responsible for reporting and reconciling funding balance at regularly scheduled PSC meetings
+
+6. The GeoMOOSE website will be updated to include information on how to contribute.
 
 Voting History
 ---------------
