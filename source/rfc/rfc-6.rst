@@ -13,7 +13,7 @@ Summary
 -----------
 
 * Establish financial controls for administering project funds.
-* Facilitate easy financial contributions to hte GeoMOOSE project at all levels.
+* Facilitate easy financial contributions to the GeoMOOSE project at all levels.
 
 Implementation Tasks
 -----------------------
