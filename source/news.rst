@@ -1,6 +1,25 @@
 GeoMOOSE News
 =============
 
+4/5/2017 - GeoMOOSE Security Advisory
+-------------------------------------
+
+A security issue in GeoMoose was identified that affects many  versions of GeoMoose.  The earliest version of the bug we have been able to identify is GeoMoose 2.7 but earlier versions of the 2.X series may also be affected. 
+
+The fix for this is easy and works the same for all versions of GeoMoose.  Find your copy of "download.php" and replace it with this one:
+
+- https://github.com/geomoose/geomoose-services/raw/master/php/download.php
+
+This version has been tested and does not exhibit the bug.
+
+*Please* update your GeoMoose installations as soon as possible.
+
+All packages now available have been fixed. 
+
+Thank You,
+
+The GeoMOOSE Team
+
 1/12/2017 - GeoMOOSE Version 2.9.2 Released
 -------------------------------------------
 
