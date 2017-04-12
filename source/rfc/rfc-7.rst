@@ -22,7 +22,12 @@ Goals
 
 1. Exercise Standards instead of Custom Services.  Previous version of GeoMOOSE used Perl and PHP in order to provide query services for the user.  3.0 strives to use WMS and WFS standards in order to work with existing service's capabilities.
 2. Use a recognizeable Javascript development stack.  This includes using contemporary Javascript package management and structuring the project in a way that is compatible with the modern Javascript toolchain.
-3. Make upgrades easier on users.  Upgrading between even small revisions of GeoMoose has previously been a huge pain point for implemntation.
+3. Make upgrades easier on users.  Upgrading between even small revisions of GeoMoose has previously been a huge pain point for implemntation. The tentative Javsacript stack is:
+
+  * Webpack + Babel
+  * React + Redux
+  * OpenLayers 3+
+
 4. Keep installations simple.  Users should not need to know a specific Javascript library or require heavy coding in order to create their own GeoMOOSE deployment.
 
 
