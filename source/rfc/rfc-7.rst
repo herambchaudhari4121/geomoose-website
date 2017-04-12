@@ -29,6 +29,8 @@ Goals
   * OpenLayers 3+
 
 4. Keep installations simple.  Users should not need to know a specific Javascript library or require heavy coding in order to create their own GeoMOOSE deployment.
+5. Documentation!
+6. Testing - Implement automated testing and coverage.
 
 
 Implementation Tasks
