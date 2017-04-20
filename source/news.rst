@@ -1,6 +1,26 @@
 GeoMOOSE News
 =============
 
+4/18/2017 - Great things are afoot!
+-----------------------------------
+
+
+3.0 Development
+^^^^^^^^^^^^^^^
+
+Development on a fresh new GeoMOOSE 3.0 is getting really exciting! We've put together a great new architecture while working hard to keep GeoMOOSE familiar to users and administrators.  Check out the activity on `GitHub <https://github.com/geomoose/gm3>`_ and the new `Demo <http://demo.geomoose.org/3.0/demo/>`_.
+
+GeoMOOSE will be at FOSS4G 2017 in Boston!
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A new GeoMOOSE 3.0 workshop will be presented in Boston! If you're coming to Boston, sign up, and learn the new GeoMOOSE!  The workshop will cover the new concepts, installation, and customization of 3.0.  We are waiting on pins-and-needles in order to hear about our project status presentation.  If that's accepted we'll post here with more information.
+ 
+ITAG 2017
+^^^^^^^^^
+
+Acceptance at `ITAG! <https://iowacountiesit.org/itag-conference/>`_ In the Des Moines area in June? Come see @theduckylittle give a run down of GeoMOOSE 3.0.  It includes a complete summary of the new architecture and development plans for the next year.
+
+
 4/5/2017 - GeoMOOSE Security Advisory
 -------------------------------------
 
