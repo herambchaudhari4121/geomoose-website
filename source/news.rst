@@ -1,6 +1,24 @@
 GeoMOOSE News
 =============
 
+5/2/2017 - Making a (PDF) Mark with GeoMOOSE 3.0
+------------------------------------------------
+
+GeoMOOSE 3.0 is still moving along! We have put some serious work into preparing packaging and adding a new print tool.  The coolest part? Still no server-side scripts needed to make printing happen! A major design goal is to minimize server-side software in GeoMOOSE 3.0.  That means no more PHP requirement. There are two major roadblocks to that development:
+
+ 1. Buffering.  This still needs to be tackled.  The hope is to use a minified form of JSTS in order to provide client-side buffering of features.
+ 2. Printing. All of the previous print solutions in GeoMOOSE used server-side libraries for PHP or Perl.  Now, we are able to use jsPDF and some tricks with OpenLayers to generate a PDF on the client. Major victory!
+
+GeoMOOSE 3.0 and npm
+^^^^^^^^^^^^^^^^^^^^
+
+GeoMOOSE 3.0 will also be available as a package on `npm <https://www.npm.js/>`_! Jim has been hard at work ensure that we have the project structured in such a way that folks can integrate the new GeoMOOSE into their npm-managed projects. It's not ready quite yet but will be for the first release.
+
+See it all!
+^^^^^^^^^^^
+
+Printing is now available in the `Demo <http://demo.geomoose.org/3.0/demo/>`_ and all the code is available on `GitHub <https://github.com/geomoose/gm3>`_.
+
 4/18/2017 - Great things are afoot!
 -----------------------------------
 
