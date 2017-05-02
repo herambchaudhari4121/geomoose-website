@@ -12,7 +12,7 @@ GeoMOOSE 3.0 is still moving along! We have put some serious work into preparing
 GeoMOOSE 3.0 and npm
 ^^^^^^^^^^^^^^^^^^^^
 
-GeoMOOSE 3.0 will also be available as a package on `npm <https://www.npm.js/>`_! Jim has been hard at work ensure that we have the project structured in such a way that folks can integrate the new GeoMOOSE into their npm-managed projects. It's not ready quite yet but will be for the first release.
+GeoMOOSE 3.0 will also be available as a package on `npm <https://www.npmjs.org/>`_! Jim has been hard at work ensure that we have the project structured in such a way that folks can integrate the new GeoMOOSE into their npm-managed projects. It's not ready quite yet but will be for the first release.
 
 See it all!
 ^^^^^^^^^^^
