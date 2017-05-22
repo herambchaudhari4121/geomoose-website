@@ -26,7 +26,7 @@ Printing is now available in the `Demo <http://demo.geomoose.org/3.0/>`_ and all
 3.0 Development
 ^^^^^^^^^^^^^^^
 
-Development on a fresh new GeoMOOSE 3.0 is getting really exciting! We've put together a great new architecture while working hard to keep GeoMOOSE familiar to users and administrators.  Check out the activity on `GitHub <https://github.com/geomoose/gm3>`_ and the new `Demo <http://demo.geomoose.org/3.0/demo/>`_.
+Development on a fresh new GeoMOOSE 3.0 is getting really exciting! We've put together a great new architecture while working hard to keep GeoMOOSE familiar to users and administrators.  Check out the activity on `GitHub <https://github.com/geomoose/gm3>`_ and the new `Demo <http://demo.geomoose.org/3.0/>`_.
 
 GeoMOOSE will be at FOSS4G 2017 in Boston!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
