@@ -17,7 +17,7 @@ GeoMOOSE 3.0 will also be available as a package on `npm <https://www.npmjs.org/
 See it all!
 ^^^^^^^^^^^
 
-Printing is now available in the `Demo <http://demo.geomoose.org/3.0/demo/>`_ and all the code is available on `GitHub <https://github.com/geomoose/gm3>`_.
+Printing is now available in the `Demo <http://demo.geomoose.org/3.0/>`_ and all the code is available on `GitHub <https://github.com/geomoose/gm3>`_.
 
 4/18/2017 - Great things are afoot!
 -----------------------------------
