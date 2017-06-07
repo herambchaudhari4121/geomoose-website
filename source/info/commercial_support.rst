@@ -8,7 +8,7 @@ List of companies that offer commercial support as a service.  If you would like
 Companies that offer commercial support for installing, configuration, custom development and hosting:
 
  * `dbSpatial <http://www.dbspatial.com>`_, Contact Dan "Ducky" Little, dan.little ~at~ dbspatial.com
- * `SharedGeo <http://www.sharedgeo.org>`_
+ * `SharedGeo <http://www.sharedgeo.org>`_, Contact Bob Basques, bbasques ~at~ sharedgeo.org
  * `Houston Engineering, Inc.  <http://www.houstoneng.com>`_, Contact Brian Fischer, bfischer ~at~ houstoneng.com
  * `GeoAnalytic Inc.  <http://www.geoanalytic.com>`_, Contact Brent Fraser, bfraser ~at~ geoanalytic.com
  * `Flat Rock Geographics <http://www.flatrockgeo.com/>`_, Contact Paul Wickman, info ~at~ flatrockgeo.com
