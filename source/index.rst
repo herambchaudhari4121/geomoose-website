@@ -37,7 +37,7 @@ Why GeoMOOSE?
 GeoMOOSE Gallery
 ----------------
 
-See working examples of real-world GeoMOOSE implementations. By viewing `the GeoMOOSE Gallery <http://www.geomoose.org/wiki/index.php/GeoMOOSE_Gallery>`_.
+See working examples of real-world GeoMOOSE implementations. By viewing `the GeoMOOSE Gallery <info/gallery>`.
 
 GeoMOOSE Documentation
 ======================
