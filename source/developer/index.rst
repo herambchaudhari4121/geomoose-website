@@ -6,7 +6,9 @@ Advanced developer documentation is available HERE.
 Ticket Management System
 -------------------------
 
-We have migrated to GitHub's Issue management system. `Click here to view or file tickets <https://github.com/geomoose/geomoose/issues>`_.
+We have migrated to GitHub's Issue management system.  To view or file issues click the link for the appropriate version of GeoMoose.
+  * `GeoMoose 2 issues <https://github.com/geomoose/geomoose/issues>`_
+  * `GeoMoose 3 issues <https://github.com/geomoose/gm3/issues>`_
 
 Downloading Current Developer Versions
 --------------------------------------
