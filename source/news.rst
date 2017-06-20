@@ -1,7 +1,7 @@
 GeoMOOSE News
 =============
 
-6/20/2019 - Starting to wrap on 3.0
+6/20/2017 - Starting to wrap on 3.0
 -----------------------------------
 
 We are getting closer and closer to an official 3.0 release! We've really tackled the last of the major features and can proudly announce that all of the following features work in the latest version of 3.0:
