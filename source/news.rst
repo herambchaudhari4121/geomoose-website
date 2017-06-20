@@ -14,6 +14,8 @@ We are getting closer and closer to an official 3.0 release! We've really tackle
 
 Thursday, @theduckylittle will be presenting at Iowa's ITAG conference and covering all the new features and doing a live demo.
 
+Please take some time to exercise the demo and file bug reports! The GeoMoose 3 issue list can be found `here on GitHub <https://github.com/geomoose/gm3/issues>`_.
+
 5/2/2017 - Making a (PDF) Mark with GeoMOOSE 3.0
 ------------------------------------------------
 
