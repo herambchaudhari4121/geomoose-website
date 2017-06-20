@@ -1,6 +1,19 @@
 GeoMOOSE News
 =============
 
+6/20/2019 - Starting to wrap on 3.0
+-----------------------------------
+
+We are getting closer and closer to an official 3.0 release! We've really tackled the last of the major features and can proudly announce that all of the following features work in the latest version of 3.0:
+
+1. Buffering. We're using the ES6-capable version of JSTS to do client-side buffering.  It's been a really great addition and you can see it at work in the new demo.
+2. OpenLayers 4. OpenLayers now publishes an `ol` package which is ES6-compatible.  We have adopted it and so now there is no longer a need to separately include OpenLayers in a gm3 application.
+3. The metadata tool is back. In all of our development we missed out on the simple metadata tool from the catalog. It's back in the demo.
+4. Toolbar drawers. In GM 2.X these were provided by using a very widget heavy set of solutions.  They usually had browser compatibility issues and some struggled to function on touch screens.  The new solution is almost purely CSS based and has been test on modern version of IE, Chrome, Firefox, and on mobile browsers.
+5. ArcGIS FeatureServer layers. FeatureServer layers can now be treated the same way as WFS layers. They can be queries and rendered in the browser.  The *AGS Dakota County Rail* layer in the demo has been added as an example to prove how it works and it can be used in the same ways and with services just like any other vector layer.
+
+Thursday, @theduckylittle will be presenting at Iowa's ITAG conference and covering all the new features and doing a live demo.
+
 5/2/2017 - Making a (PDF) Mark with GeoMOOSE 3.0
 ------------------------------------------------
 
