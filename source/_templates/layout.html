@@ -9,35 +9,35 @@
 
 {% endblock %}
 
-{% block relbar1 %}
-<div class="related">
-	<ul></ul>
-</div>
-{% endblock %}
+{% block relbar1 %}{% endblock %}
 {% block relbar2 %}{% endblock %}
 
 {% block sidebarlogo%}
+<div class="logo-byline">Come see our workshop @</div>
+<a href="http://2017.foss4g.org/"><img src="{{ pathto("_static/foss4g2017.png", 1) }}"  alt="FOSS4G2017 logo" width="150"/></a>
+<div class="logo-byline">We are open source:</div>
 <a href="http://www.osgeo.org"><img src="{{ pathto('_static/osgeo.png', 1) }}"/></a><br/>
-<a href="http://2017.foss4g.org/"><img style="display:block;margin-top:0.5em;margin-left:auto;margin-right:auto;" src="{{ pathto("_static/foss4g2017.png", 1) }}"  alt="FOSS4G2017 logo" width="150"/></a>
+<div>
+<div class="logo-byline">Hosting graciously provided by:</div>
+<a title="SharedGeo" href="http://www.sharedgeo.org"><img src="{{ pathto('_static/sg.png', 1) }}"/></a>
+</div>
 {% endblock %}
 
 
 {% block header %}
-<div style="background-color: white; padding: 1em">
-	<div style="float: left">
+<div id="header">
+	<div class="logo">
 		<a href="/"><img src="{{ pathto("_static/logo_2011.png", 1) }}" alt="GeoMOOSE Logo"/></a>
 	</div>
 
 	<div class="header-links">
-		<span style="font-decoration: italic; font-size: x-large">The Home of GeoMOOSE!</span>
-		<br><br>
 		<a href="{{ pathto('index') }}" title="Home"><i class="icon-home"></i> Home</a> 
+		<a href="{{ pathto('faq') }}" title="FAQ"><i class="icon-question-sign"></i> FAQ</a> 
 		<a href="http://demo.geomoose.org/"><i class="icon-globe"></i> Demo</a> 
 		<a href="{{ pathto('documentation') }}" title="GeoMOOSE Write-ups, Hows"><i class="icon-book"></i> Documentation</a> 
 		<a href="{{ pathto('developer/index') }}" title="GeoMOOSE Developer Documentation"><i class="icon-wrench"></i> Developers</a> 
 		<a href="{{ pathto('download') }}" title="Download"><i class="icon-download"></i> Download</a>
 	</div>
-	<div style="clear: both"></div>
 	{{ super () }}
 </div>
 {% endblock %}
@@ -46,10 +46,6 @@
 <div class="footer">
 	<div>
 	&copy; Copyright 2009-2017, Dan "Ducky" Little under <a href="http://docs.geomoose.org/info/license.html">License</a>.
-	</div>
-	<div>
-	Hosting graciously provided by:
-	<a title="SharedGeo" href="http://www.sharedgeo.org"><img style="vertical-align: middle" src="{{ pathto('_static/sg.png', 1) }}"/></a>
 	</div>
 </div>
 {% endblock %}

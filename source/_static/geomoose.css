@@ -2,12 +2,15 @@
 
 body {
 	background-color: #dddddd; 
+	padding-top: 100px;
+}
+
+#header .logo {
+	height: 75px;
 }
 
 .header-links {
-	background-color: white;
-	text-align: right;
-	float: right;
+	padding-top: 5px;
 }
 
 a {
@@ -16,12 +19,28 @@ a {
 
 .header-links a {
 	color: black;
-	font-size: 1.2em;
+	font-size: 15px;
 	padding-left: .5em;
+	cursor: pointer;
 }
 
 .header-links a:hover {
 	color: #277b3c;
+	text-decoration: underline;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: solid 1px black;
+	text-align: left;
+
+	background-color: white;
+	background-image: url(parcel_bg.png);
+	background-repeat: no-repeat;
+	background-position: top right;
 }
 
 /* not my favorite centering hack, but it 
@@ -53,3 +72,30 @@ span.highlight { background-color: yellow; }
 div.footer {
 	background-color: #eee;
 }
+
+.logo-byline {
+	font-size: 8pt;
+	padding-top: 5px;
+}
+
+.handy-panel {
+	text-align: center;
+}
+
+.handy-panel .panel {
+	display:  inline-block;
+	border: solid 1px #eee;
+	width: 100px;
+	height: 70px;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+
+	text-decoration: none;
+}
+
+.handy-panel .panel i {
+	display: block;
+	font-size: 40px;
+}
+
