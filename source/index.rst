@@ -7,19 +7,19 @@ The GeoMoose core is written using JavaScript and HTML.  It is entirely possible
 
 .. raw:: html
 
-	<div class="handy-panel">
-		<a href='./faq.html' class="panel">
-			<i class="icon-question-sign"></i>
+	<div class='handy-panel'>
+		<a href='./faq.html' class='panel'>
+			<i class='icon-question-sign'></i>
 			Read our FAQ
 		</a>
 
-		<a href='http://demo.geomoose.org' class="panel">
-			<i class="icon-globe"></i>
+		<a href='http://demo.geomoose.org' target='_blank' class='panel'>
+			<i class='icon-globe'></i>
 			Try the Demo
 		</a>
 
-		<a href='./quickstart.html' class="panel">
-			<i class="icon-fighter-jet"></i>
+		<a href='./quickstart.html' class='panel'>
+			<i class='icon-fighter-jet'></i>
 			Quickstart
 		</a>
 	</div>

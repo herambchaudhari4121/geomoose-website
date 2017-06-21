@@ -42,6 +42,18 @@ Yes! GeoMoose has a wonderful online community that regularly answers emails on 
 	info/mailing_lists
 	info/commercial_support
 
+I have found a bug. How does it get fixed?
+------------------------------------------
+
+First, try sending a message to the mailing list above. This will let the developers know you've found a bug and will help them determine appropriate follow up actions.
+
+Second, we have two issue trackers setup in GitHub depending on the version of GeoMoose being used:
+
+  * `GeoMoose 2 issues <https://github.com/geomoose/geomoose/issues>`_
+  * `GeoMoose 3 issues <https://github.com/geomoose/gm3/issues>`_
+
+
+
 What is the GeoMoose 'stack'?
 -----------------------------
 
