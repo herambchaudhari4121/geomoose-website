@@ -6,5 +6,5 @@ Why GeoMOOSE?
 Learn More
 ----------
 
-Check out our `Getting Started Guide<http://docs.geomoose.org/getting_started.html>`_ to learn more.
+Check out our `Getting Started Guide <http://docs.geomoose.org/getting_started.html>`_ to learn more.
 
