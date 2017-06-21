@@ -3,6 +3,13 @@
 Downloads
 =========
 
+Development Version
+-------------------
+
+GeoMoose 3.0.0-beta
+	* `Download GeoMoose 3.0.0-beta for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.0.0-beta-ms4w.zip>`_
+	* `Download GeoMoose 3.0.0-beta <https://www.geomoose.org/downloads/gm3-examples-3.0.0-beta.zip>`_
+
 Current Version
 ---------------
 GeoMOOSE 2.9.3
@@ -19,16 +26,9 @@ GeoMOOSE 2.7.2
 	* `Download GeoMOOSE 2.7.2 <http://www.geomoose.org/downloads/geomoose-2.7.2.tar.gz>`_
 	* `Download GeoMOOSE 2.7.2 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.7.2-MS4W.zip>`_
 
-GeoMOOSE 1.X
-------------
-GeoMOOSE 1.6.1 is the latest in the GeoMOOSE 1.X series
-	* `Download GeoMOOSE 1.6.1 <http://www.geomoose.org/downloads/unsupported/moose-1.6.1.tar.gz>`_
-	* `Download GeoMOOSE 1.6.1 for MS4W <http://www.geomoose.org/downloads/unsupported/GeoMOOSE-1.6.1-MS4W.zip>`_
-
 Nightly Build Packages
-^^^^^^^^^^^^^^^^^^^^^^
+	These packages are built nightly from Git.  There are no promises these packages will work.  You can see recent development activity on `GitHub <https://github.com/geomoose/geomoose/commits/master>`_.
 
-These packages are built nightly from Git.  There are no promises these packages will work.  You can see recent development activity on `GitHub <https://github.com/geomoose/geomoose/commits/master>`_.
 	* `Download GeoMOOSE Nightly Build <http://www.geomoose.org/downloads/geomoose-nightly.tar.gz>`_
 	* `Download GeoMOOSE Nightly Build for MS4W <http://www.geomoose.org/downloads/GeoMOOSE-nightly-MS4W.zip>`_
 
