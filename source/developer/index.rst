@@ -1,7 +1,9 @@
 Developer Documentation
 =======================
 
-Advanced developer documentation is available HERE.
+Interested in GeoMoose development? Our GitHub repository is the best place to look!
+
+ * `GeoMoose 3 GitHub repository <https://github.com/geomoose/gm3>`_
 
 Ticket Management System
 -------------------------
