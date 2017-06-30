@@ -5,6 +5,7 @@ Documentation
 
 Stable Releases
 ^^^^^^^^^^^^^^^
+	* `GeoMOOSE 3.0 Docs <http://geomoose.github.io/gm3/>`_
 	* `GeoMOOSE 2.9 Docs <http://docs.geomoose.org/2.9/index.html>`_ (`PDF <http://docs.geomoose.org/2.9/GeoMOOSE.pdf>`_)
 
 Older Releases
