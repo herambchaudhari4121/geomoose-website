@@ -6,7 +6,7 @@ RFC 7: GeoMOOSE 3.0
 :Author: Dan "Ducky" Little
 :Contact: @theduckylittle
 :Status: Proposed
-:Last Updated: 13 March 2017
+:Last Updated: 10 July 2017
 
 
 Summary
