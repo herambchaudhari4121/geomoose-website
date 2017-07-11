@@ -1,6 +1,15 @@
 GeoMoose News
 =============
 
+7/11/2017 - 3.0.0 is Almost Here!
+---------------------------------
+
+After a great showing at ITAG, 3.0.0 is getting even closer to release! There's been a few late-changing bugs that will need to be fixed but we expect to have 3.0.0 ready for everyone by the end of the month!
+
+The biggest gulf right now is the documentation. Much of the older documentation and how-tos will still need "ported forward" to make a real release possible.  The code is *really good* but we are missing that solid documentation component to go with it.
+
+If you get any time please check out the demo and file any issues you may find. We want to get the best out of this frist release and it's really starting to gel! We also accept documentation help! If you find a how-to you'd like to rewrite or have solved a problem with 3.0.0 already send it our way. We'd love to put it in!
+
 6/20/2017 - Starting to wrap on 3.0
 -----------------------------------
 
