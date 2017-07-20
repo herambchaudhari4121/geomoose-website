@@ -5,8 +5,8 @@ RFC 7: GeoMOOSE 3.0
 
 :Author: Dan "Ducky" Little
 :Contact: @theduckylittle
-:Status: Proposed
-:Last Updated: 10 July 2017
+:Status: Adopted 
+:Last Updated: 20 July 2017
 
 
 Summary
@@ -46,4 +46,4 @@ Implementation Tasks
 Voting History
 ---------------
 
-Nil.
+20 July 2017: +1 from Dan "Ducky" Little, Jim Klassen, Brian Fischer, Brent Fraser, TC Hadad, Eli Adam
