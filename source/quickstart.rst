@@ -7,6 +7,11 @@ MS4W
 Want to try GeoMoose on Windows without a lot of setup? Then checkout the `MS4W Quickstart. <https://theduckylittle.github.io/gm3/ms4w-quickstart/index.html>`_ It will walk you through installing MS4W and the GeoMoose MS4W package.
 
 
+OSGeo Live
+----------
+
+GeoMoose is on `OSGeo Live <https://live.osgeo.org/>`_. See the `OSGeo Live Quickstart. <https://live.osgeo.org/en/quickstart/geomoose_quickstart.html>`_ It will walk you through using GeoMoose on OSGeo Live.
+
 Developer Quickstart
 --------------------
 
