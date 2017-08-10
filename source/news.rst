@@ -1,6 +1,33 @@
 GeoMoose News
 =============
 
+8/10/2016 - 3.0.0 is OFFICIAL!
+------------------------------
+
+With a full year of hard work the GeoMoose team is proud to announce the official 3.0.0 release!
+
+This is the first major rewrite of GeoMoose in nearly 10 years. This newest version offers a great
+upgrade over the the 2.X line in GeoMoose:
+
+1. Modern Javascript frameworks. 
+   GM3 is based on React, OpenLayers 4, JSTS, Babel, and Webpack. This makes GeoMoose
+   development and deployment platform independent and easy to extends.
+
+   Not a fan of React and ES6? No fear! GeoMoose's examples are written in traditional Javascript.
+
+2. We're exercising even more standards.
+   GM3 does not use PHP but still can perform identify, select, and buffer operations!
+   It does this by using JSTS to do client-side geometry manipulation and the querying capabilities
+   of WFS and FeatureServices.
+
+   That also means no more MapServer templates! Templates can now be defined right in the mapbook
+   using the Mark.up template engine.
+
+3. There are so many other great features! `Try the Demo <http://demo.geomoose.org>`_ and read the `Quickstarts! <./quickstart.html>`_. The full 3.0.0 documentation can be `found here! <http://geomoose.github.io/gm3/>`_
+
+Finally, a huge **thank you** to the MN.IT with the Minnesota DOT. They provided a lot of technical assistance, review, and funding for this release! 
+
+
 7/11/2017 - 3.0.0 is Almost Here!
 ---------------------------------
 
