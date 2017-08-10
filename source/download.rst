@@ -9,15 +9,24 @@ GeoMoose 3.x
 GeoMoose 3 separates the data used in our examples from the application code. For a first time install, both a demo dataset and an application is needed. For more information read the `Quickstart <./quickstart.html>`_.
 
 GeoMoose 3.0.0
+^^^^^^^^^^^^^^
+
+**MS4W**
+
 	* `GeoMoose 3.0.0 for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.0.0-ms4w.zip>`_ 
 	* `GeoMoose 3.0.0 Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.0.0-ms4w.zip>`_
+
+**Linux**
 
 	* `GeoMoose 3.0.0 for Linux <https://www.geomoose.org/downloads/gm3-examples-3.0.0.zip>`_  
 	* `GeoMoose 3.0.0 Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.0.zip>`_
 
+**NPM**
+
 	* `Download GeoMoose 3.0.0 NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.0.tgz>`_
 
 Nightly Development Builds
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 	* `GeoMoose 3.0.1-beta for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.0.1-beta-ms4w.zip>`_ 
 	* `GeoMoose 3.0.1-beta Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.0.1-beta-ms4w.zip>`_
 
