@@ -23,7 +23,7 @@ GeoMoose 3.0.0
 
 **NPM**
 
-	* `Download GeoMoose 3.0.0 NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.0.tgz>`_
+	* `GeoMoose 3.0.0 NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.0.tgz>`_
 
 Nightly Development Builds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
