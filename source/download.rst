@@ -3,28 +3,27 @@
 Downloads
 =========
 
-Development Version
--------------------
+GeoMoose 3.x
+------------
+GeoMoose 3.0.0
+	* Download GeoMoose 3.0.0 for MS4W: `Applications <https://www.geomoose.org/downloads/gm3-examples-3.0.0-ms4w.zip>`_ and `Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.0-ms4w.zip>`_
 
-GeoMoose 3.0.0-beta
-	* `Download GeoMoose 3.0.0-beta for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.0.0-beta-ms4w.zip>`_
-	* `Download GeoMoose 3.0.0-beta <https://www.geomoose.org/downloads/gm3-examples-3.0.0-beta.zip>`_
+	* Download GeoMoose 3.0.0 for Linux: `Applications <https://www.geomoose.org/downloads/gm3-examples-3.0.0.zip>`_ and `Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.0.zip>`_
 
-Current Version
----------------
-GeoMoose 2.9.3
-	* `Download GeoMoose 2.9.3 <http://www.geomoose.org/downloads/geomoose-2.9.3.tar.gz>`_
-	* `Download GeoMoose 2.9.3 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMoose-2.9.3-MS4W.zip>`_
+	* Download GeoMoose 3.0.0 `NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.0.tgz>`_
+
+Nightly Development Builds
+	* Download GeoMoose 3.0.1-beta for MS4W: `Applications <https://www.geomoose.org/downloads/gm3-examples-3.0.1-beta-ms4w.zip>`_ and `Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.1-beta-ms4w.zip>`_
+
+	* Download GeoMoose 3.0.1-beta for Linux: `Applications <https://www.geomoose.org/downloads/gm3-examples-3.0.1-beta.zip>`_ and `Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.1-beta.zip>`_
+
+	* Download GeoMoose 3.0.1-beta `NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.1-beta.tgz>`_
 
 GeoMoose 2.X
 ------------
-GeoMoose 2.8.2
-	* `Download GeoMoose 2.8.2 <http://www.geomoose.org/downloads/geomoose-2.8.2.tar.gz>`_
-	* `Download GeoMoose 2.8.2 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMoose-2.8.2-MS4W.zip>`_
-
-GeoMoose 2.7.2
-	* `Download GeoMoose 2.7.2 <http://www.geomoose.org/downloads/geomoose-2.7.2.tar.gz>`_
-	* `Download GeoMoose 2.7.2 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMoose-2.7.2-MS4W.zip>`_
+GeoMoose 2.9.3
+	* `Download GeoMoose 2.9.3 <http://www.geomoose.org/downloads/geomoose-2.9.3.tar.gz>`_
+	* `Download GeoMoose 2.9.3 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMoose-2.9.3-MS4W.zip>`_
 
 Nightly Build Packages
 	These packages are built nightly from Git.  There are no promises these packages will work.  You can see recent development activity on `GitHub <https://github.com/geomoose/geomoose/commits/master>`_.
