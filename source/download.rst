@@ -33,7 +33,7 @@ Nightly Development Builds
 	* `GeoMoose 3.0.1-beta for Linux <https://www.geomoose.org/downloads/gm3-examples-3.0.1-beta.zip>`_  
 	* `GeoMoose 3.0.1-beta Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.0.1-beta.zip>`_
 
-	* `Download GeoMoose 3.0.1-beta NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.1-beta.tgz>`_
+	* `GeoMoose 3.0.1-beta NPM package <https://www.geomoose.org/downloads/gm3-npm-3.0.1-beta.tgz>`_
 
 
 GeoMoose 2.X
