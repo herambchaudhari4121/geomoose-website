@@ -11,6 +11,8 @@ For those who can't make it, we have made the workshop contents available online
 Find it in the `GitHub pages <http://geomoose.github.io/gm3/workshop/>`_. Fun fact, this Markdown presentation can be turned into
 PDF slides using pandoc and beamer!
 
+Look for the GeoMoose 3.0.0 presentation tomorrow!
+
 8/10/2017 - 3.0.0 is OFFICIAL!
 ------------------------------
 
