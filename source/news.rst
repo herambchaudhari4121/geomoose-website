@@ -1,7 +1,17 @@
 GeoMoose News
 =============
 
-8/10/2016 - 3.0.0 is OFFICIAL!
+8/15/2017 - FOSS4G Workshop Day
+-------------------------------
+
+@theduckylittle will be teaching a GeoMoose 3.0.0 workshop at FOSS4G in Boston today!
+
+For those who can't make it, we have made the workshop contents available online. 
+
+Find it in the `GitHub pages <http://geomoose.github.io/gm3/workshop/>`_. Fun fact, this Markdown presentation can be turned into
+PDF slides using pandoc and beamer!
+
+8/10/2017 - 3.0.0 is OFFICIAL!
 ------------------------------
 
 With a full year of hard work the GeoMoose team is proud to announce the official 3.0.0 release!
