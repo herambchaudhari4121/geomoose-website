@@ -1,6 +1,14 @@
 GeoMoose News
 =============
 
+9/11/2017 - Still at it! 3.0.1 on the Horizon
+---------------------------------------------
+
+After the great feedback from FOSS4G, and some tickets from early adopters, we've been
+studiously working towards the 3.0.1 release.  There'll be a great collection of small
+changes. Stay tuned for a release! 
+
+
 8/15/2017 - FOSS4G Workshop Day
 -------------------------------
 
