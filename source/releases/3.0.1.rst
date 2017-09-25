@@ -1,0 +1,13 @@
+.. _3.0.1_Release:
+
+GeoMoose 3.0.1 Release Notes
+============================
+
+Bug Fixes
+---------
+  * Updated Documentation.
+  * Fixed a failure in the "Upload features" tool when given with bad data.
+  * Service results panel respects a service's wish to hide the summary panel.
+  * Removed some GeoMoose 2 cruft from the example mapbooks.
+  * Fixed missing metadata icon in catalog.
+  * `And more <https://github.com/geomoose/gm3/issues?q=milestone%3A3.0.1+is%3Aclosed>`_
