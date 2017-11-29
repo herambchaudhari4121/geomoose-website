@@ -40,13 +40,13 @@ GeoMoose 2.X
 ------------
 GeoMoose 2.9.3
 	* `Download GeoMoose 2.9.3 <http://www.geomoose.org/downloads/geomoose-2.9.3.tar.gz>`_
-	* `Download GeoMoose 2.9.3 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMoose-2.9.3-MS4W.zip>`_
+	* `Download GeoMoose 2.9.3 for MS4W - Web Mercator Demo <http://www.geomoose.org/downloads/GeoMOOSE-2.9.3-MS4W.zip>`_
 
 Nightly Build Packages
 	These packages are built nightly from Git.  There are no promises these packages will work.  You can see recent development activity on `GitHub <https://github.com/geomoose/geomoose/commits/master>`_.
 
 	* `Download GeoMoose Nightly Build <http://www.geomoose.org/downloads/geomoose-nightly.tar.gz>`_
-	* `Download GeoMoose Nightly Build for MS4W <http://www.geomoose.org/downloads/GeoMoose-nightly-MS4W.zip>`_
+	* `Download GeoMoose Nightly Build for MS4W <http://www.geomoose.org/downloads/GeoMOOSE-nightly-MS4W.zip>`_
 
 Other Packages
 ^^^^^^^^^^^^^^
