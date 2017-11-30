@@ -5,8 +5,8 @@ RFC 6: Establish Additional Funding Mechanisms for GeoMOOSE
 
 :Author: Dan "Ducky" Little
 :Contact: @theduckylittle
-:Status: Proposed 
-:Last Updated: 14 March 2017
+:Status: Adopted
+:Last Updated: 30 November 2017
 
 
 Summary
