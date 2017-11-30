@@ -33,5 +33,5 @@ Implementation Tasks
 Voting History
 ---------------
 
-Nil.
+20 July 2017: +1 from Bob Basques, Brian Fischer, Dan “Ducky” Little, Eli Adam, Jim Klassen
 
