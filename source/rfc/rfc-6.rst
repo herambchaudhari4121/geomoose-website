@@ -35,3 +35,4 @@ Voting History
 
 20 July 2017: +1 from Bob Basques, Brian Fischer, Dan “Ducky” Little, Eli Adam, Jim Klassen
 
+4 December 2017: Motion to establish SharedGeo as the GeoMoose project fiscal agent passed with +1 from Dan "Ducky" Little, Eli Adam, Brian Fischer, TC Haddad.  Abstaining: Bob Basques, Jim Klassen.
