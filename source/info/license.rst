@@ -11,7 +11,7 @@ The GeoMoose license is an MIT based license.
 License Text
 ------------
 
-Copyright (c) 2009-2012, Dan "Ducky" Little & GeoMoose.org
+Copyright (c) 2009-2018, Dan "Ducky" Little & GeoMoose.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
