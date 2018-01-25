@@ -27,7 +27,7 @@ Frightening as they may be there is a subtle mapbook change:
     <attribute name="fill_color" type="color" default-value="#ff0000" label="Fill Color:"/>
     <attribute name="label_only" type="checkbox" default-value="false" label="Only show label in print?"/>   
  
- * Not actually a mapbook change, but previous uses of <layer name="all"/> may not work without modifying your .map files.  See also :ref:`Why_doesn't_layers=all_work_anymore?`
+ * Not actually a mapbook change, but previous uses of <layer name="all"/> may not work without modifying your .map files.  See also :ref:`layers_all`
 
  * <map-source/> changes
 	"/" is no longer allowed in map-source names:  E.g. <map-source name="/asdf/1234"> needs to become something like <map-source name="asdf_1234">.
@@ -81,4 +81,18 @@ Configuration Changes
 There is now a "local_settings.ini" file in the "conf/" directory.  An SVN checkout will not feature this file.  It is up to the installer to create.  For MS4W installs, simply copy "ms4w_local_settings.ini" to "local_settings.ini".
 
 Also, users should no longer edit "settings.ini", it can be considered the default settings.  Any setting placed in "local_settings.ini" will overwrite the one in "settings.ini".
+
+.. _layers_all:
+
+Why doesn't layers=all work anymore?
+------------------------------------
+Changing to GeoMOOSE 2.6 breaks the <layer name="all"/> usage in mapbook.xml and gives me this error::
+
+    <ServiceException code="LayerNotDefined">
+    msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
+    </ServiceException>
+
+This is due to changing the default type to WMS rather than MapServer.  The same thing can still be achieved, the .map files just need a little revision.  This is covered some in this `thread <http://lists.osgeo.org/pipermail/geomoose-users/2012-April/003922.html>`_ and referenced ticket.  For the record, here is what bobb wrote: 
+Johan,
+I don't think that "layers=all" is a valid WMS call parameter . . . A work around is mentioned in here related to GROUPS in the mapfile. http://trac.osgeo.org/mapserver/ticket/1603 -bobb
 

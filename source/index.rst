@@ -39,3 +39,14 @@ GeoMoose Documentation
 
 	developer/index
 	info/license	
+
+
+.. Silence not in toctree errors for toolbar/main page linked pages
+.. toctree::
+  :hidden:
+
+  documentation
+  download
+  faq
+  quickstart
+  info/gallery
