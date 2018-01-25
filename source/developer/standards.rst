@@ -1,5 +1,5 @@
-GeoMoose Coding Standards
-=========================
+GeoMoose 2 Coding Standards
+===========================
 
 
 1. Code Formatting.  

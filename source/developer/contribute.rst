@@ -1,7 +1,7 @@
 .. _contribute:
 
-Contributing to GeoMoose
-========================
+Contributing to GeoMoose 2
+==========================
 
 GeoMoose is an increasingly flexible platform upon which functionality can be added.   Making enhancements should follow these guidelines.
 

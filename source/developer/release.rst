@@ -1,8 +1,8 @@
 .. _how_to_release:
 
 
-GeoMoose Release Procedure
-==========================
+GeoMoose 2 Release Procedure
+============================
 Follow :ref:`rfc3` and this file
 
 * If not already created, create /releases/M.m.r.txt, summarizing changes from the previous release.  It may help to look at the GitHub issues related to the release milestone and the git commit messages leading up to the release.
