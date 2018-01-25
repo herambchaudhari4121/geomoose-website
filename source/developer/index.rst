@@ -6,15 +6,16 @@ GeoMoose 3
 
 Interested in GeoMoose development? Our GitHub repository is the best place to look!
 
- * `GeoMoose 3 code <https://github.com/geomoose/gm3>`_
- * `GeoMoose 3 issues <https://github.com/geomoose/gm3/issues>`_
- * `GeoMoose 3 docs and development guides <https://geomoose.github.io/gm3/>`_
+* `GeoMoose 3 code <https://github.com/geomoose/gm3>`_
+* `GeoMoose 3 issues <https://github.com/geomoose/gm3/issues>`_
+* `GeoMoose 3 docs and development guides <https://geomoose.github.io/gm3/>`_
 
 GeoMoose 2
 ----------
 
 We have migrated to GitHub's Issue management system.  To view or file issues click the link for the appropriate version of GeoMoose.
-  * `GeoMoose 2 issues <https://github.com/geomoose/geomoose/issues>`_
+
+* `GeoMoose 2 issues <https://github.com/geomoose/geomoose/issues>`_
 
 GeoMoose uses GitHub for its source control.  Instructions and details for setting up a development
 environment are available in `README.md <https://github.com/geomoose/geomoose/blob/master/README.md>`_.
