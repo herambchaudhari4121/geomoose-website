@@ -10,16 +10,16 @@ RFC 1: Project Steering Committee Guidelines
 Summary
 -----------
 
-This document describes how the GeoMOOSE Project Steering Committee 
+This document describes how the GeoMoose Project Steering Committee 
 determines membership, and makes decisions on all aspects of the 
-GeoMOOSE project - both technical and non-technical.
+GeoMoose project - both technical and non-technical.
 
 Examples of PSC management responsibilities:
 
 * setting the overall development road map
 * developing technical standards and policies (e.g. coding standards, 
   file naming conventions, etc...)
-* ensuring regular releases (major and maintenance) of GeoMOOSE software
+* ensuring regular releases (major and maintenance) of GeoMoose software
 * reviewing RFC for technical enhancements to the software
 * project infrastructure (e.g. CVS/SVN, Bugzilla, hosting options, etc...)
 * formalization of affiliation with external entities such as OSGeo
@@ -27,19 +27,19 @@ Examples of PSC management responsibilities:
 * creation and oversight of specialized sub-committees (e.g. project 
   infrastructure, training) 
 
-In brief the project team votes on proposals on GeoMOOSE.  Proposals are 
+In brief the project team votes on proposals on GeoMoose.  Proposals are 
 available for review for at least two days, and a single veto is sufficient 
 to delay progress though ultimately a majority of members can pass a proposal.
 
 Detailed Process
 -----------------------
 
-* Proposals are written up and submitted on the GeoMOOSE mailing list 
+* Proposals are written up and submitted on the GeoMoose mailing list 
   for discussion and voting, by any interested party, not just 
   committee members.
-* Proposals need to be available for review as an RFC posted on the GeoMOOSE site for at least two business 
+* Proposals need to be available for review as an RFC posted on the GeoMoose site for at least two business 
   days before a final decision can be made.
-* All discussions regarding the RFC should occur on the GeoMOOSE mailing list.
+* All discussions regarding the RFC should occur on the GeoMoose mailing list.
 * Respondents may vote "+1" to indicate support for the proposal and a 
   willingness to support implementation.
 * Respondents may vote "-1" to veto a proposal, but must provide clear 
@@ -97,14 +97,14 @@ Committee Membership
 ---------------------
 
 The PSC is made up of individuals consisting of technical contributors 
-(e.g. developers) and prominent members of the GeoMOOSE user community.  
+(e.g. developers) and prominent members of the GeoMoose user community.  
 There is no set number of members for the PSC although the initial desire 
 is to set the membership at six.
 
 Adding Members
 ..............
 
-Any member of the GeoMOOSE mailing list may nominate someone for 
+Any member of the GeoMoose mailing list may nominate someone for 
 committee membership at any time. Only existing PSC committee members may 
 vote on new members.  Nominees must receive a majority vote from existing 
 members to be added to the PSC.
@@ -144,7 +144,7 @@ the member should let the meeting organizer know via e-mail.
 Mailing List Participation
 ...............................
 
-PSC members are expected to be active on the GeoMOOSE mailing lists, subject to open source mailing list 
+PSC members are expected to be active on the GeoMoose mailing lists, subject to open source mailing list 
 etiquette. 
 
 Non-developer members of the PSC are not expected to respond 

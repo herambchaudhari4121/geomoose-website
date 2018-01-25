@@ -1,6 +1,6 @@
 .. _2.4_Release:
 
-GeoMOOSE 2.4 Release
+GeoMoose 2.4 Release
 ====================
 
 Features

@@ -15,7 +15,7 @@ We have migrated to GitHub's Issue management system.  To view or file issues cl
 Downloading Current Developer Versions
 --------------------------------------
 
-GeoMOOSE uses GitHub for its source control.  Instructions and details for setting up a development
+GeoMoose uses GitHub for its source control.  Instructions and details for setting up a development
 environment are available in `README.md <https://github.com/geomoose/geomoose/blob/master/README.md>`_.
 
 
@@ -43,12 +43,12 @@ RFCs
 	:maxdepth: 1
 
 	RFC 1: Project Steering Committee Guidelines - Adopted <../rfc/rfc-1>
-	RFC 2: GeoMOOSE Project Mission (What is GeoMOOSE) - Adopted <../rfc/rfc-2>
-	RFC 3: GeoMOOSE Release Process - Adopted <../rfc/rfc-3>
-	RFC 4: GeoMOOSE Commit Management -Adopted <../rfc/rfc-4>
-	RFC 5: Modularize Core GeoMOOSE Services - Adopted <../rfc/rfc-5>
-	RFC 6: Establish Additional Funding Mechanisms for GeoMOOSE - Adopted <../rfc/rfc-6>
-	RFC 7: GeoMOOSE 3.0 - Adopted <../rfc/rfc-7>
+	RFC 2: GeoMoose Project Mission (What is GeoMoose) - Adopted <../rfc/rfc-2>
+	RFC 3: GeoMoose Release Process - Adopted <../rfc/rfc-3>
+	RFC 4: GeoMoose Commit Management -Adopted <../rfc/rfc-4>
+	RFC 5: Modularize Core GeoMoose Services - Adopted <../rfc/rfc-5>
+	RFC 6: Establish Additional Funding Mechanisms for GeoMoose - Adopted <../rfc/rfc-6>
+	RFC 7: GeoMoose 3.0 - Adopted <../rfc/rfc-7>
 
 *RFC Status values*
 ^^^^^^^^^^^^^^^^^^^

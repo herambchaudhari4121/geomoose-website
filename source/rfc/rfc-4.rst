@@ -1,6 +1,6 @@
 .. _rfc4:
 
-RFC 4: GeoMOOSE Commit Management
+RFC 4: GeoMoose Commit Management
 ====================================================================
 
 :Date: 2013-05-28
@@ -15,7 +15,7 @@ Purpose
 -------
 
 To formalize Git push access, and specify guidelines for Git 
-committers.  More information on working with Git in GeoMOOSE can be
+committers.  More information on working with Git in GeoMoose can be
 found at https://github.com/mapserver/mapserver/wiki/WorkingWithGit.
 
 
@@ -23,20 +23,20 @@ Election to Git Push Access
 ---------------------------
 
 Permission for Git push access shall be provided to new developers only
-if accepted by the GeoMOOSE Project Steering Committee.   A proposal
+if accepted by the GeoMoose Project Steering Committee.   A proposal
 should be written to the PSC for new committers and voted on normally.  It
 is not necessary to write an RFC document for these votes; email to 
 geomoose-users is sufficient.
 
 Removal of Git commit access should be handled by the same process.  
 
-The new committer should have demonstrated commitment to GeoMOOSE and
-knowledge of the GeoMOOSE source code and processes to the committee's
+The new committer should have demonstrated commitment to GeoMoose and
+knowledge of the GeoMoose source code and processes to the committee's
 satisfaction, usually by reporting issues, submitting pull requests,
-and/or actively participating in the various GeoMOOSE forums.
+and/or actively participating in the various GeoMoose forums.
 
 The new committer should also be prepared to support any new feature or
-changes that he/she commits to the GeoMOOSE source tree in future
+changes that he/she commits to the GeoMoose source tree in future
 releases, or to find someone to which to delegate responsibility for
 them if he/she stops being available to support the portions of code
 that he/she is responsible for.  In the event no delegate is found to 
@@ -82,7 +82,7 @@ will be handled by regular PSC processes and recorded in ``AUTHORS.rst``.
 Git Commit Practices
 --------------------
 
-The following are considered good Git commit practices for the GeoMOOSE
+The following are considered good Git commit practices for the GeoMoose
 project: 
 
 * Use meaningful descriptions for Git commit log entries.  Commit messages
@@ -102,7 +102,7 @@ project:
 * Ensure that all commits do not break any existing tests (or that
   the test suite be updated with expected results if required).
 
-* Ensure that the committed code is in accordance with GeoMOOSE's coding
+* Ensure that the committed code is in accordance with GeoMoose's coding
   conventions as per http://www.geomoose.org/developer/standards.html
 
 * Ensure all source code in Git is in Unix text format as opposed to DOS
@@ -116,13 +116,13 @@ Legal
 -----
 
 Committers are the front line gatekeepers to keep the code base clear of
-improperly contributed code. It is important to the GeoMOOSE users,
+improperly contributed code. It is important to the GeoMoose users,
 developers and the OSGeo foundation to avoid contributing any code to the
 project without it being clearly licensed under the project license.
 
 Generally speaking the key issues are that those providing code to be included
 in the repository understand that the code will be released under the
-GeoMOOSE License, and that the person providing the code has the right
+GeoMoose License, and that the person providing the code has the right
 to contribute the code. For the committer themselves understanding about the
 license is clear. For other contributors, the committer should verify
 the understanding unless the committer is very comfortable that the contributor
@@ -131,7 +131,7 @@ understands the license (for instance frequent contributors).
 If the contribution was developed on behalf of an employer (on work time, as
 part of a work project, etc) then it is important that an appropriate
 representative of the employer understand that the code will be contributed
-under the GeoMOOSE License. The arrangement should be cleared with an
+under the GeoMoose License. The arrangement should be cleared with an
 authorized supervisor/manager, etc.
 
 The code should be developed by the contributor, or the code should be from a

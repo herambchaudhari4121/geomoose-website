@@ -1,10 +1,10 @@
-GeoMOOSE Coding Standards
+GeoMoose Coding Standards
 =========================
 
 
 1. Code Formatting.  
 
- a. Tabs, not spaces.  This formatting rule is a a matter of religion.  GeoMOOSE worships in the House of "\\t".  Code submissions will be returned if the indentation uses spaces.
+ a. Tabs, not spaces.  This formatting rule is a a matter of religion.  GeoMoose worships in the House of "\\t".  Code submissions will be returned if the indentation uses spaces.
 
  b. function brackets should be at the end of a function declaration. 
 
@@ -38,11 +38,11 @@ GeoMOOSE Coding Standards
 
  f. Please format comments to be parsed with NaturalDocs.  This is the same library used by OpenLayers.  This allows for better class and API documentation building.
 
-2. Do not create new dependencies in the core.  Adding a library dependency is not something the GeoMOOSE team takes lightly.  By comparison to other Web GIS distributions we strive to keep GeoMOOSE very light.  We work quite hard to keep it appropriate for distribution to the public and to devices with limited bandwidth.
+2. Do not create new dependencies in the core.  Adding a library dependency is not something the GeoMoose team takes lightly.  By comparison to other Web GIS distributions we strive to keep GeoMoose very light.  We work quite hard to keep it appropriate for distribution to the public and to devices with limited bandwidth.
 
 3. DRY - Don't Repeat Yourself.  
 
- a. Scour the documentation first, especially the GeoMOOSE API namespace, there is a lot of functionality there.
+ a. Scour the documentation first, especially the GeoMoose API namespace, there is a lot of functionality there.
 
  b.  Check OpenLayers, especially OpenLayers.Util.
 
@@ -50,9 +50,9 @@ GeoMOOSE Coding Standards
 
 4. Keep UI and Library code separate.  It may be tempting, with Javascript, but please keep oil out of the water - fragile sea-life depends on you.  In a more serious note, if a function is meant to put content somewhere, write a function that generates the content in a machine parse-able format and separate code that renders it.
 
-5. All diff/patch files should indicate a version. Patches can be sent to the GeoMOOSE mailing list.  The email should include a major GeoMOOSE version or an SVN revision number.
+5. All diff/patch files should indicate a version. Patches can be sent to the GeoMoose mailing list.  The email should include a major GeoMoose version or an SVN revision number.
 
-6. All code submitted to GeoMOOSE should be free and clear of all license restrictions.  If any one can claim ownership, a license, patent, or copyright we will reject the code.  If you are not on the committers list then please include a message releasing the code into the public domain.  Please reference the GeoMOOSE license for the terms under which GeoMOOSE is distributed.
+6. All code submitted to GeoMoose should be free and clear of all license restrictions.  If any one can claim ownership, a license, patent, or copyright we will reject the code.  If you are not on the committers list then please include a message releasing the code into the public domain.  Please reference the GeoMoose license for the terms under which GeoMoose is distributed.
 
 7. Any contributed code should contain a code source comment block in each file header indicating the author (that is you and your employer if you are working on company time), date of contribution and any conflicting licensing restrictions that are not already covered by the GeoMoose :ref:`license`. All unusual situations need to be discussed and/or documented on the project mail list and/or in the project TRAC system. 
 

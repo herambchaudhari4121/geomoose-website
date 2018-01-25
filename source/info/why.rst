@@ -1,4 +1,4 @@
-Why GeoMOOSE?
+Why GeoMoose?
 -------------
 
 .. include:: why_text.rst

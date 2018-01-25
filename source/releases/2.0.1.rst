@@ -1,4 +1,4 @@
-GeoMOOSE 2.0.1 Release
+GeoMoose 2.0.1 Release
 ======================
 
 Features:
@@ -19,7 +19,7 @@ You might be asking your self the following questions:
 	1) Is it worth the upgrade?
 	Yes.
 
-	2) Is the upgrade as painful as upgrading old GeoMOOSE 1.X.X versions? 
+	2) Is the upgrade as painful as upgrading old GeoMoose 1.X.X versions? 
 	No! You should not have to change your mapbook at all.  You should back up your settings.ini and verify changes there.
 
 	3) Is this the version that should convince me to upgrade from 1.X to 2.X?

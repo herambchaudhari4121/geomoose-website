@@ -1,6 +1,6 @@
 .. _2.8.1_Release:
 
-GeoMOOSE 2.8.1 Release Notes
+GeoMoose 2.8.1 Release Notes
 ==========================
 
 Bug Fixes

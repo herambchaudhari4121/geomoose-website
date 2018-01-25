@@ -1,9 +1,9 @@
 .. _contribute:
 
-Contributing to GeoMOOSE
+Contributing to GeoMoose
 ========================
 
-GeoMOOSE is an increasingly flexible platform upon which functionality can be added.   Making enhancements should follow these guidelines.
+GeoMoose is an increasingly flexible platform upon which functionality can be added.   Making enhancements should follow these guidelines.
 
 1. Before you start writing something (be it an extension or a part of core), it helps to engage other developers on our mailing list.  This way, you can get a sense if anyone is working on something similar, gauge interest, and get advice that will greatly increase the chances that your contribution will be in a form where it is easy to accept.  For extensions that don't require any changes to the core code, this isn't a huge deal, for changes to core this is critical.
 
@@ -17,6 +17,6 @@ GeoMOOSE is an increasingly flexible platform upon which functionality can be ad
 
 6. Code contributed to the GeoMoose Project will be distributed under the GeoMoose :ref:`license`.  Other contributed code should be documented as per the developer standards. 
 
-Generally, the GeoMOOSE development community is very friendly and always looking for people interested in the code.  We are active on our mailing list and generally interested in how the product is being used and extended.  Have no fear in emailing the list!
+Generally, the GeoMoose development community is very friendly and always looking for people interested in the code.  We are active on our mailing list and generally interested in how the product is being used and extended.  Have no fear in emailing the list!
 
 

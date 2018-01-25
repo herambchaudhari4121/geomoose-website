@@ -1,6 +1,6 @@
 .. _rfc6:
 
-RFC 6: Establish Additional Funding Mechanisms for GeoMOOSE
+RFC 6: Establish Additional Funding Mechanisms for GeoMoose
 ====================================================================
 
 :Author: Dan "Ducky" Little
@@ -13,7 +13,7 @@ Summary
 -----------
 
 * Establish financial controls for administering project funds.
-* Facilitate easy financial contributions to the GeoMOOSE project at all levels.
+* Facilitate easy financial contributions to the GeoMoose project at all levels.
 
 Implementation Tasks
 -----------------------
@@ -28,7 +28,7 @@ Implementation Tasks
 
 5. The PSC chair will be responsible for reporting and reconciling fund balance at regularly scheduled PSC meetings.
 
-6. The GeoMOOSE website will be updated to include information on how to contribute.
+6. The GeoMoose website will be updated to include information on how to contribute.
 
 Voting History
 ---------------

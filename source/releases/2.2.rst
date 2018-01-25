@@ -1,4 +1,4 @@
-GeoMOOSE 2.2 Release
+GeoMoose 2.2 Release
 ====================
 
 Features:

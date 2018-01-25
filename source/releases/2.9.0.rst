@@ -1,6 +1,6 @@
 .. _2.9.0_Release:
 
-GeoMOOSE 2.9.0 Release Notes
+GeoMoose 2.9.0 Release Notes
 ==========================
 
 New Features

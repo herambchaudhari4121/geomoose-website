@@ -1,6 +1,6 @@
 .. _rfc5:
 
-RFC 5: Modularize Core GeoMOOSE Services
+RFC 5: Modularize Core GeoMoose Services
 ====================================================================
 
 :Author: S\. Andrew Sheppard
@@ -12,9 +12,9 @@ RFC 5: Modularize Core GeoMOOSE Services
 Summary
 -----------
 
-This document describes a number of changes to the core GeoMOOSE feature services (particularly ``select.php``, ``query.php``, and ``identify.php``) to make it easier to re-use common output techniques between the services.  The immediate goal is to facilitate re-use of the semi-persistent WMS layers that ``select.php`` creates, making them available for output by ``query.php``.  Once this is done, enabling WFS capabilities for these layers will make it possible to provide standards-based vector interactivity for service results in the GeoMOOSE client.
+This document describes a number of changes to the core GeoMoose feature services (particularly ``select.php``, ``query.php``, and ``identify.php``) to make it easier to re-use common output techniques between the services.  The immediate goal is to facilitate re-use of the semi-persistent WMS layers that ``select.php`` creates, making them available for output by ``query.php``.  Once this is done, enabling WFS capabilities for these layers will make it possible to provide standards-based vector interactivity for service results in the GeoMoose client.
 
-The longer-term goal is to modularize the services infrastructure, making it easier both to create new services and to maintain the core GeoMOOSE service codebase.  Toward this end, this RFC proposes creating base classes that facilitate the generation of various output formats and modes from arbitrary service result sets.
+The longer-term goal is to modularize the services infrastructure, making it easier both to create new services and to maintain the core GeoMoose service codebase.  Toward this end, this RFC proposes creating base classes that facilitate the generation of various output formats and modes from arbitrary service result sets.
 
 Finally, this RFC proposes documenting the generalized workflow in a language-independent manner, as a first step towards implementing and providing the base classes and/or core services in languages other than PHP.
 
@@ -35,9 +35,9 @@ Implementation Tasks
 * Update existing documentation for configuring and creating PHP services.
 * Extend documentation with a language-independent description of the service workflow.
 
-Effect on Existing GeoMOOSE Installations
+Effect on Existing GeoMoose Installations
 -----------------------------------------
-While the internal refactoring is substantial, it is anticipated that existing GeoMOOSE users will be able to upgrade without issue, as existing services will default to their current output modes.  In addition, service developers will have the option to utilize the new base classes but will not required to.  In light of RFC 3 and with these considerations in mind, a likely target for integrating these changes into GeoMOOSE core is version 2.8.0.
+While the internal refactoring is substantial, it is anticipated that existing GeoMoose users will be able to upgrade without issue, as existing services will default to their current output modes.  In addition, service developers will have the option to utilize the new base classes but will not required to.  In light of RFC 3 and with these considerations in mind, a likely target for integrating these changes into GeoMoose core is version 2.8.0.
 
 Voting History
 ---------------

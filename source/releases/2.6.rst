@@ -1,6 +1,6 @@
 .. _2.6_Release:
 
-GeoMOOSE 2.6 Release
+GeoMoose 2.6 Release
 ====================
 
 MapBook Changes

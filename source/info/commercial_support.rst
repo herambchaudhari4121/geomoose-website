@@ -3,7 +3,7 @@
 Commercial Support
 ==================
 
-List of companies that offer commercial support as a service.  If you would like to be added to this list please email the GeoMOOSE developer mailing list and we will get your company added.
+List of companies that offer commercial support as a service.  If you would like to be added to this list please email the GeoMoose developer mailing list and we will get your company added.
 
 Companies that offer commercial support for installing, configuration, custom development and hosting:
 

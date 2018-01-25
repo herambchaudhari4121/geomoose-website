@@ -1,6 +1,6 @@
 .. _2.7.1_Release:
 
-GeoMOOSE 2.7.1 Release Notes
+GeoMoose 2.7.1 Release Notes
 ==========================
 
 Bug Fixes

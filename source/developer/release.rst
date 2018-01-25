@@ -1,7 +1,7 @@
 .. _how_to_release:
 
 
-GeoMOOSE Release Procedure
+GeoMoose Release Procedure
 ==========================
 Follow :ref:`rfc3` and this file
 
