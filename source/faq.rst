@@ -22,7 +22,8 @@ The first versions of GeoMoose were released in 2005 and it has been under const
 Is GeoMoose Open Source? How Open?
 ----------------------------------
 
-GeoMoose *is* Open Source! It is both *free* as in beer and *free* as in freedom. In fact, GeoMoose is an OSGeo Project which means that GeoMoose has been vetted for Open-ness and sustainability. GeoMoose is released under a MIT-style license: :doc:`info/license`.
+GeoMoose *is* Open Source! It is both *free* as in beer and *free* as in freedom. In fact, GeoMoose is an `OSGeo Project <https://www.osgeo.org/projects/geomoose/>`_ which means that GeoMoose has been vetted for Open-ness and sustainability. GeoMoose is released under a MIT-style license: :doc:`info/license`.  Development happens in the open on our `GitHub <https://github.com/geomoose>`_ page and on our :doc:`info/mailing_lists`.
+
 
 What do I need to run GeoMoose?
 -------------------------------
@@ -57,7 +58,7 @@ Second, we have two issue trackers setup in GitHub depending on the version of G
 What is the GeoMoose 'stack'?
 -----------------------------
 
-GeoMoose uses a number of underlaying technologies. All of which are evolving. This is a *very* breif summary of what GeoMoose has used over the years:
+GeoMoose uses a number of underlying technologies. All of which are evolving. This is a *very* brief summary of what GeoMoose has used over the years:
 
 * GeoMoose 3.X: React, Redux, OpenLayers 4
 * GeoMoose 2.X: Dojo Toolkit, OpenLayers 2
