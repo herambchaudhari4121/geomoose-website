@@ -30,15 +30,7 @@ The GeoMoose core is written using JavaScript and HTML.  It is entirely possible
 GeoMoose Gallery
 ----------------
 
-See working examples of real-world GeoMoose implementations. By viewing :doc:`the GeoMoose Gallery <info/gallery>`.
-
-GeoMoose Documentation
-======================
-.. toctree::
-	:maxdepth: 1
-
-	developer/index
-	info/license	
+See working examples of real-world GeoMoose implementations. By viewing the GeoMoose :doc:`Gallery <info/gallery>`.
 
 
 .. Silence not in toctree errors for toolbar/main page linked pages
@@ -46,6 +38,7 @@ GeoMoose Documentation
   :hidden:
 
   documentation
+  developer/index
   download
   faq
   quickstart

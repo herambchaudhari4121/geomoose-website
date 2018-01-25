@@ -23,3 +23,12 @@ Release Notes
   :maxdepth: 1
   
   releases/*.*
+
+
+License
+^^^^^^^
+
+.. toctree::
+  :maxdepth: 1
+
+  info/license

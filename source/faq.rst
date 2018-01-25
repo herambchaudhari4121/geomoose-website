@@ -22,7 +22,7 @@ The first versions of GeoMoose were released in 2005 and it has been under const
 Is GeoMoose Open Source? How Open?
 ----------------------------------
 
-GeoMoose *is* Open Source! It is both *free* as in beer and *free* as in freedom. In fact, GeoMoose is an OSGeo Project which means that GeoMoose has been vetted for Open-ness and sustainability.
+GeoMoose *is* Open Source! It is both *free* as in beer and *free* as in freedom. In fact, GeoMoose is an OSGeo Project which means that GeoMoose has been vetted for Open-ness and sustainability. GeoMoose is released under a MIT-style license: :doc:`info/license`.
 
 What do I need to run GeoMoose?
 -------------------------------
