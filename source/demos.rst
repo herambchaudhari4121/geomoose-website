@@ -49,4 +49,3 @@ GeoMoose 2.9 is the past major version of GeoMoose.  Click the icon below to try
 		</a>
 	</div>
 
-
