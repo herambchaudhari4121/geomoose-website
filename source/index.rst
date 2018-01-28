@@ -13,7 +13,7 @@ The GeoMoose core is written using JavaScript and HTML.  It is entirely possible
 			Read our FAQ
 		</a>
 
-		<a href='http://demo.geomoose.org' target='_blank' class='panel'>
+		<a href='./demos.html' class='panel'>
 			<i class='icon-globe'></i>
 			Try the Demo
 		</a>
@@ -37,9 +37,10 @@ See working examples of real-world GeoMoose implementations. By viewing the GeoM
 .. toctree::
   :hidden:
 
-  documentation
   developer/index
+  documentation
   download
   faq
-  quickstart
   info/gallery
+  quickstart
+  support
