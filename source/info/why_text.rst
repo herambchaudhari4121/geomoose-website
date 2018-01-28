@@ -1,6 +1,6 @@
 .. include:: /info/why_abstract.rst
 
-The GeoMoose demo shows rendering parcels in the popular spherical mercator projection.  These parcels are coming from a shape-file which is stored in UTM-15N.  It also demonstrates how to re-project a local WMS service from native coordinates into spherical mercator.  This allows users to compare local data seamlessly with popular web mapping services such as Google, Bing, and MapQuest.  These are some of the most common tasks performed with MapServer and GeoMoose includes real, working, and practical examples.
+The GeoMoose demo shows rendering parcels in the popular Spherical Mercator projection.  These parcels are coming from a Shapefile which is stored in UTM-15N.  It also demonstrates how to re-project a local WMS service from native coordinates into Spherical Mercator.  This allows users to compare local data seamlessly with popular web mapping services such as Google, Bing, and MapQuest.  These are some of the most common tasks performed with MapServer and GeoMoose includes real, working, and practical examples.
 
 Beyond rendering, gaining information on a dataset is an important every day use of a Web GIS.  GeoMoose includes all of the basic tools for traditional selection, identification, and searching on a dataset.  However, GeoMoose's functionality is not limited by those services.  To power that functionality we have developed a power service-based architecture that users can use to create their own custom scripts in any language.
 

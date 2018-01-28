@@ -8,7 +8,7 @@ After a great showing at ITAG, 3.0.0 is getting even closer to release! There's 
 
 The biggest gulf right now is the documentation. Much of the older documentation and how-tos will still need "ported forward" to make a real release possible.  The code is *really good* but we are missing that solid documentation component to go with it.
 
-If you get any time please check out the demo and file any issues you may find. We want to get the best out of this frist release and it's really starting to gel! We also accept documentation help! If you find a how-to you'd like to rewrite or have solved a problem with 3.0.0 already send it our way. We'd love to put it in!
+If you get any time please check out the demo and file any issues you may find. We want to get the best out of this first release and it's really starting to gel! We also accept documentation help! If you find a how-to you'd like to rewrite or have solved a problem with 3.0.0 already send it our way. We'd love to put it in!
 
 6/20/2017 - Starting to wrap on 3.0
 -----------------------------------
@@ -157,7 +157,7 @@ After over a year we have assembled the first release candidate for GeoMoose 2.4
 
 2/18/2010 - GeoMoose 2.2 Officially Released
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The offical GeoMoose 2.2 Release has arrived!  This is the version is worth the upgrade from any 1.X series of GeoMoose installations.  View the full release notes: :doc:`../releases/2.2`.
+The official GeoMoose 2.2 Release has arrived!  This is the version is worth the upgrade from any 1.X series of GeoMoose installations.  View the full release notes: :doc:`../releases/2.2`.
 
 2/3/2010 - NEW WEBSITE!
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -182,5 +182,5 @@ We've added some important new documentation.  UN*X installation instructions (f
 7/21/2009 - GeoMoose 2.0 Released
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-GeoMoose 2.0 released! See downloads to get your copy.  Also, we've rolled out this shiney new website!
+GeoMoose 2.0 released! See downloads to get your copy.  Also, we've rolled out this shiny new website!
 

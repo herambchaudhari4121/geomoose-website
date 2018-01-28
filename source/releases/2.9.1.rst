@@ -5,7 +5,7 @@ GeoMoose 2.9.1 Release Notes
   
 Bug Fixes
 ---------
-  * Add missing OSM attribution.
+  * Add missing OpenStreetMap attribution.
   * Update commercial datasets in demo.
   * Fix for unselectable tools.
   * Fix for ResultsAsGrid extension with multiple data sources.

@@ -17,11 +17,11 @@ This document describes the GeoMoose Project Mission.  The mission of GeoMoose i
 Details
 -----------------------
 
-* GeoMoose is a web mapping appplication that comes with a working demo that can be changed to work with your data.
+* GeoMoose is a web mapping application that comes with a working demo that can be changed to work with your data.
 * GeoMoose offers an optional but often desirable server side component (MS/PHP for printing, buffer, other functions) which constitute a complete application.
 * GeoMoose is simple to install and flexible.
-* GeoMoose is modular and configurable (configuration is done by an xml control file).
-* GeoMoose is a framework including a rich, highly customiazable API and web services architecture upon which you can build.
+* GeoMoose is modular and configurable (configuration is done by an XML control file).
+* GeoMoose is a framework including a rich, highly customizable API and web services architecture upon which you can build.
 * GeoMoose's primary users are GIS professionals, server administrators, or system implementers.  Most are not professional web programmers.  
 * The GeoMoose project will use the website (http://geomoose.org) as a representation of the current status of the project including the mission, coding standards, documentation, FAQ, and other relevant information.
  

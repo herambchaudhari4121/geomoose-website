@@ -3,18 +3,18 @@
 GeoMoose 2.6 Release
 ====================
 
-MapBook Changes
+Mapbook Changes
 ---------------
 
 Frightening as they may be there is a subtle mapbook change:
 
- * "status" was attributed to the Catalog in versions 2.0-2.4.  This was moved to the map-source's <layer> entry.  There are some academic and implementation reasons for this.
- * <configuration>'s <param> now MUST be delinated by "." if defining or redefining a sub-member.  The following was once valid::
+ * ``status`` was attributed to the Catalog in versions 2.0-2.4.  This was moved to the map-source's ``<layer>`` entry.  There are some academic and implementation reasons for this.
+ * ``<configuration>``'s ``<param>`` now MUST be delineated by "." if defining or redefining a sub-member.  The following was once valid::
     
     <param name="zoomtos['Jump To:']">
 
    It is no longer, don't do it, you will only hurt yourself.
- * mapserver_url and mapfile_root is not required in the mapbook anylonger. 
+ * ``mapserver_url`` and ``mapfile_root`` are not required in the mapbook any longer. 
  * Default sketch color parameters used to be configured like::
 
     <param name="drawing_tools.default_fill">red</param>
@@ -27,41 +27,41 @@ Frightening as they may be there is a subtle mapbook change:
     <attribute name="fill_color" type="color" default-value="#ff0000" label="Fill Color:"/>
     <attribute name="label_only" type="checkbox" default-value="false" label="Only show label in print?"/>   
  
- * Not actually a mapbook change, but previous uses of <layer name="all"/> may not work without modifying your .map files.  See also :ref:`layers_all`
+ * Not actually a mapbook change, but previous uses of ``<layer name="all"/>`` may not work without modifying your .map files.  See also :ref:`layers_all`
 
- * <map-source/> changes
-	"/" is no longer allowed in map-source names:  E.g. <map-source name="/asdf/1234"> needs to become something like <map-source name="asdf_1234">.
+ * ``<map-source/>`` changes
+	"/" is no longer allowed in map-source names:  E.g. ``<map-source name="/asdf/1234">`` needs to become something like ``<map-source name="asdf_1234">``.
 
- 	For WMS sources, <param name="FORMAT" value="image/jpeg"/> may be needed where only <param name="TRANSPARENT" value="false"/> was required before for imagery layers.
+ 	For WMS sources, ``<param name="FORMAT" value="image/jpeg"/>`` may be needed where only ``<param name="TRANSPARENT" value="false"/>`` was required before for imagery layers.
 
- * Catalog groups now default to expand="true", in 2.4 they defaulted to expand="false".
+ * Catalog groups now default to ``expand="true"``, in 2.4 they defaulted to ``expand="false"``.
 
 Deprecation Notices
 -------------------
 
- * The ScaleLine is no longer honored by configuration.  You'll need to include the ScaleLine.js Extension.
- * Client-size Raster Reprojection.  This has never worked well and is really only used to create Web-Mercator support on servers that don't natively provide it.  There are simply better tools for this.  Please see TileCache, MapProxy, or configure MapServer as a WMS client.
+ * The ``ScaleLine`` is no longer honored by configuration.  You'll need to include the ``ScaleLine.js`` Extension.
+ * Client-side raster reprojection:  This has never worked well and is really only used to create Web Mercator support on servers that don't natively provide it.  There are simply better tools for this.  Please see TileCache, MapProxy, or configure MapServer as a WMS client.
  * The "cycle" tool has been removed from the catalog.
- * Custom tabs are now implemented completely differently.  Please see extensions/CustomTab.js for an example of what the code for a custom tab looks like.  The demos are configured to display a custom tab by default.
- * IE6 compatibility is no longer tested nor promised.  Transparent GIFs are being dropped in favor of PNGs.  PNGs hate IE6.
+ * Custom tabs are now implemented completely differently.  Please see ``extensions/CustomTab.js`` for an example of what the code for a custom tab looks like.  The demos are configured to display a custom tab by default.
+ * IE6 compatibility is no longer tested nor promised.  Transparent GIFs are being dropped in favor of PNGs.  IE6 hates PNGs.
  * CSS control of Toolbar-Tool labels.  Please "enhancements."
- * The "help" attribute of the layers have been deprecated.  This was mostly redundant with the "metadata" attribute.
+ * The ``help`` attribute of the layers have been deprecated.  This was mostly redundant with the ``metadata`` attribute.
 
 Enhancements
 ------------
  * New integration with Dojo
- * New configuration parameter: "flashy_bits" will toggle on/off animation effects added to 2.6.
- * It was once necessary to do some reasonably serious CSS hacking to turn on or off the labels for a particular tool in the toolbar.  Now, it's much easier.  Simply set the "show-label" attribute to "true" or "false" in the Mapbook.  Example::
+ * New configuration parameter: ``flashy_bits`` will toggle on/off animation effects added to 2.6.
+ * It was once necessary to do some reasonably serious CSS hacking to turn on or off the labels for a particular tool in the toolbar.  Now, it's much easier.  Simply set the ``show-label`` attribute to ``true`` or ``false`` in the Mapbook.  Example::
 
     <!-- with a label on -->
     <tool title="Zoom In" show-label="false" ... />
     <!-- with a label off -->
     <tool title="Zoom In" show-label="false" ... />
 
-  The default behaviour can changed by setting the configuration parameter "toolbar.show_labels" to either true or false.
+  The default behavior can changed by setting the configuration parameter ``toolbar.show_labels`` to either ``true`` or ``false``.
   
- * Drawers now work like popup menus.  They now have their own "title" and "icon-class" attributes.
- * Setting a custom icon in the toolbar. This is another point of pain that required much CSS hacking.  Now, define the icon class in any of your included css files and tell the tool to use that class. Example::
+ * Drawers now work like popup menus.  They now have their own ``title`` and ``icon-class`` attributes.
+ * Setting a custom icon in the toolbar. This is another point of pain that required much CSS hacking.  Now, define the icon class in any of your included CSS files and tell the tool to use that class. Example::
 
     <tool title="Zoom In"  icon-class="my_zoomin_icon" ... />
 
@@ -78,21 +78,21 @@ Enhancements
 Configuration Changes
 ---------------------
 
-There is now a "local_settings.ini" file in the "conf/" directory.  An SVN checkout will not feature this file.  It is up to the installer to create.  For MS4W installs, simply copy "ms4w_local_settings.ini" to "local_settings.ini".
+There is now a ``local_settings.ini`` file in the ``conf/`` directory.  An SVN checkout will not feature this file.  It is up to the installer to create.  For MS4W installs, simply copy ``ms4w_local_settings.ini`` to ``local_settings.ini``.
 
-Also, users should no longer edit "settings.ini", it can be considered the default settings.  Any setting placed in "local_settings.ini" will overwrite the one in "settings.ini".
+Also, users should no longer edit ``settings.ini``, it can be considered the default settings.  Any setting placed in ``local_settings.ini`` will overwrite the one in ``settings.ini``.
 
 .. _layers_all:
 
 Why doesn't layers=all work anymore?
 ------------------------------------
-Changing to GeoMOOSE 2.6 breaks the <layer name="all"/> usage in mapbook.xml and gives me this error::
+Changing to GeoMOOSE 2.6 breaks the ``<layer name="all"/>`` usage in ``mapbook.xml`` and gives me this error::
 
     <ServiceException code="LayerNotDefined">
     msWMSLoadGetMapParams(): WMS server error. Invalid layer(s) given in the LAYERS parameter.
     </ServiceException>
 
-This is due to changing the default type to WMS rather than MapServer.  The same thing can still be achieved, the .map files just need a little revision.  This is covered some in this `thread <http://lists.osgeo.org/pipermail/geomoose-users/2012-April/003922.html>`_ and referenced ticket.  For the record, here is what bobb wrote: 
-Johan,
-I don't think that "layers=all" is a valid WMS call parameter . . . A work around is mentioned in here related to GROUPS in the mapfile. http://trac.osgeo.org/mapserver/ticket/1603 -bobb
+This is due to changing the default type to WMS rather than MapServer.  The same thing can still be achieved, the .map files just need a little revision.  This is covered some in this `thread <http://lists.osgeo.org/pipermail/geomoose-users/2012-April/003922.html>`_ and referenced ticket.  For the record, here is what bobb wrote:
 
+    Johan,
+    I don't think that ``layers=all`` is a valid WMS call parameter . . . A work around is mentioned in here related to GROUPS in the mapfile. http://trac.osgeo.org/mapserver/ticket/1603 -bobb

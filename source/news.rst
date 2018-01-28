@@ -19,7 +19,7 @@ See :ref:`3.0.1_Release` for details.
 ---------------------------------------------
 
 After the great feedback from FOSS4G, and some tickets from early adopters, we've been
-studiously working towards the 3.0.1 release.  There'll be a great collection of small
+studiously working towards the 3.0.1 release.  There will be a great collection of small
 changes. Stay tuned for a release! 
 
 
@@ -43,11 +43,11 @@ With a full year of hard work the GeoMoose team is proud to announce the officia
 This is the first major rewrite of GeoMoose in nearly 10 years. This newest version offers a great
 upgrade over the the 2.X line in GeoMoose:
 
-1. Modern Javascript frameworks. 
+1. Modern JavaScript frameworks.
    GM3 is based on React, OpenLayers 4, JSTS, Babel, and Webpack. This makes GeoMoose
    development and deployment platform independent and easy to extends.
 
-   Not a fan of React and ES6? No fear! GeoMoose's examples are written in traditional Javascript.
+   Not a fan of React and ES6? No fear! GeoMoose's examples are written in traditional JavaScript.
 
 2. We're exercising even more standards.
    GM3 does not use PHP but still can perform identify, select, and buffer operations!
@@ -62,11 +62,5 @@ upgrade over the the 2.X line in GeoMoose:
 Finally, a huge **thank you** to the MN.IT with the Minnesota DOT. They provided a lot of technical assistance, review, and funding for this release! 
 
 
-.. only:: html
-	
-	:doc:`info/old_news`
-
-.. only:: not html
-	
-	.. include:: info/old_news.rst
+:doc:`info/old_news`
 

@@ -18,6 +18,6 @@ You might be asking your self the following questions:
 	Yes.
 
 	2) Is this the version that should convince me to upgrade from 1.X to 2.X?
-	Yeah, this is definitely a worthwhile upgrade.  The User Extensiosn and Custom Input types have really advanced customizations unavailable in the 1.X series of releases.
+	Yeah, this is definitely a worthwhile upgrade.  The User Extension and Custom Input types have really advanced customizations unavailable in the 1.X series of releases.
 
 

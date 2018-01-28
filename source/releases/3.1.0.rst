@@ -8,10 +8,10 @@ Features
 
 * Search can now select a layer, search example now shows searching by multiple fields.
 * Added  a 'Start Over' button that clears the URL hash to reset the UI.
-* Grid Templates now support `src` attributes.
-* Added `query-as` attribute to `<layer>`  to allow displaying a 
+* Grid Templates now support ``src`` attributes.
+* Added ``query-as`` attribute to ``<layer>``  to allow displaying a 
   raster layer and querying against a vector layer.
-* Added GeoPDF encoding to Javascript prints.
+* Added GeoPDF encoding to JavaScript prints.
 * JSON layers are now queryable in memory. Include the sketch layers.
 * Added better error handling to the file-upload dialog.
 
@@ -22,7 +22,7 @@ Bug Fixes
   queries are cleared.
 * Cleaned up HTML in index.html to better spec the character set.
 * Grid filter now works with repeat items.
-* `Application.zoomTo` honours zoom level and not resolution.
+* ``Application.zoomTo`` honors zoom level and not resolution.
 * Fixed Lat/Lon coordinate order.
 * Fixed default values for select inputs.
 * Fixed KML uploads on Windows.

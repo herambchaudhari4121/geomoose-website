@@ -31,7 +31,7 @@ Goals
 4. Keep installations simple.  Users should not need to know a specific JavaScript library or require heavy coding in order to create their own GeoMoose deployment.
 5. Documentation!
 6. Testing - Implement automated testing and coverage.
-7. MS4W / Windows compatibility. GeoMoose 3.0.0 and beyond will ensure Windows compatilbity with the development toolchain.
+7. MS4W / Windows compatibility. GeoMoose 3.0.0 and beyond will ensure Windows compatibility with the development toolchain.
 
 
 Implementation Tasks
@@ -46,4 +46,4 @@ Implementation Tasks
 Voting History
 ---------------
 
-20 July 2017: +1 from Dan "Ducky" Little, Jim Klassen, Brian Fischer, Brent Fraser, TC Hadad, Eli Adam
+20 July 2017: +1 from Dan "Ducky" Little, Jim Klassen, Brian Fischer, Brent Fraser, TC Haddad, Eli Adam

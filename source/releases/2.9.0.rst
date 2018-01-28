@@ -16,7 +16,7 @@ Bug Fixes
   * Lots of WFS and WFS-T fixes.
   * Hide legends of deactivated layers.
   * Fix various methods of selecting a service on page load.
-  * Changed defaults so onhover activated popups auto clear on mouse move.
+  * Changed defaults so ``onhover`` activated popups auto clear on mouse move.
   * Better draw mode icon.
   * Measure area tool now shows help text (like measure line does).
   * Improved tracking of layer current and default layer state.

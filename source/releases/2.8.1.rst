@@ -9,6 +9,6 @@ Bug Fixes
  * OpenLayers Attribution text displayed in wrong spot.
  * Map feature selection not cleared after editing drawing attributes.
  * OpenLayers scale bar missing.
- * Metadata links not cascading from <mapsource>
+ * Metadata links not cascading from ``<mapsource>``
  * Unable to pan after opening select features tool.
  * `And more <https://github.com/geomoose/geomoose/issues?q=milestone%3A2.8.1+is%3Aclosed>`_

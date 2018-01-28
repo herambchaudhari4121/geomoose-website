@@ -13,4 +13,4 @@ The mailing list archives are available from OSGeo.
   * `geomoose-users <https://lists.osgeo.org/pipermail/geomoose-users/>`_
   * `geomoose-psc <https://lists.osgeo.org/pipermail/geomoose-psc/>`_
 
-The mailing list archives are also searchable on `nabble <http://osgeo-org.1560.x6.nabble.com/GeoMoose-f5002154.html>`_
+The mailing list archives are also searchable on `Nabble <http://osgeo-org.1560.x6.nabble.com/GeoMoose-f5002154.html>`_
