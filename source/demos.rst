@@ -16,6 +16,11 @@ Click on one of the icons below to try the full or lite versions.
 
 .. raw:: html
 
+	<style>
+		.handy-panel .panel {
+			width: 150px;
+		}
+	</style>
 	<div class='handy-panel'>
 		<a target="_blank" href='https://demo.geomoose.org/master/desktop/' class='panel'>
 			<i class='icon-desktop'></i>
@@ -24,7 +29,7 @@ Click on one of the icons below to try the full or lite versions.
 
 		<a target="_blank" href='https://demo.geomoose.org/master/mobile/' target='_blank' class='panel'>
 			<i class='icon-mobile-phone'></i>
-			Try Lite Demo
+			Try Lite Demo (Beta)
 		</a>
 	</div>
 
