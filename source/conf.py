@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'GeoMOOSE'
-copyright = u'2018, GeoMOOSE'
+project = u'GeoMoose'
+copyright = u'2009-2018, Dan "Ducky" Little & GeoMoose.org'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -106,7 +106,7 @@ html_theme = 'sphinxdoc'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = 'GeoMoose.org'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -169,7 +169,7 @@ html_sidebars = {
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'GeoMOOSEdoc'
+htmlhelp_basename = 'GeoMooseDoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -188,7 +188,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'GeoMOOSE.tex', u'GeoMOOSE Documentation',
+  ('index', 'GeoMOOSE-Web.tex', u'GeoMoose Website',
    u'GeoMOOSE', 'manual'),
 ]
 
@@ -218,7 +218,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'geomoose', u'GeoMOOSE Documentation',
+    ('index', 'geomoose-web', u'GeoMoose Website',
      [u'GeoMOOSE'], 1)
 ]
 
