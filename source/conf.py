@@ -89,6 +89,12 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+# Make the |Copyright| substitution available for use in .rst files.
+# and return the value of the 'copyright' variable.
+rst_epilog = """
+.. |Copyright| replace:: {copyright}
+""".format(copyright = copyright)
+
 
 # -- Options for HTML output ---------------------------------------------------
 
