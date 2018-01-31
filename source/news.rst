@@ -30,7 +30,7 @@ changes. Stay tuned for a release!
 
 For those who can't make it, we have made the workshop contents available online. 
 
-Find it in the `GitHub pages <http://geomoose.github.io/gm3/workshop/>`_. Fun fact, this Markdown presentation can be turned into
+Find it in the `GitHub pages <https://geomoose.github.io/gm3/workshop/>`_. Fun fact, this Markdown presentation can be turned into
 PDF slides using pandoc and beamer!
 
 Look for the GeoMoose 3.0.0 presentation tomorrow!
@@ -57,7 +57,7 @@ upgrade over the the 2.X line in GeoMoose:
    That also means no more MapServer templates! Templates can now be defined right in the mapbook
    using the Mark.up template engine.
 
-3. There are so many other great features! `Try the Demo <http://demo.geomoose.org>`_ and read the `Quickstarts! <./quickstart.html>`_. The full 3.0.0 documentation can be `found here! <http://geomoose.github.io/gm3/>`_
+3. There are so many other great features! `Try the Demo <https://demo.geomoose.org>`_ and read the `Quickstarts! <./quickstart.html>`_. The full 3.0.0 documentation can be `found here! <https://geomoose.github.io/gm3/>`_
 
 Finally, a huge **thank you** to the MN.IT with the Minnesota DOT. They provided a lot of technical assistance, review, and funding for this release! 
 

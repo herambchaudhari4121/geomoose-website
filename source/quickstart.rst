@@ -1,3 +1,5 @@
+.. _quickstart:
+
 GeoMoose Quickstart Guides
 ==========================
 

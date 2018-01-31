@@ -41,7 +41,7 @@ GeoMoose 3.0 will also be available as a package on `npm <https://www.npmjs.org/
 See it all!
 ^^^^^^^^^^^
 
-Printing is now available in the `Demo <http://demo.geomoose.org/3.0/>`_ and all the code is available on `GitHub <https://github.com/geomoose/gm3>`_.
+Printing is now available in the `Demo <https://demo.geomoose.org/3.0/>`_ and all the code is available on `GitHub <https://github.com/geomoose/gm3>`_.
 
 4/18/2017 - Great things are afoot!
 -----------------------------------
@@ -50,7 +50,7 @@ Printing is now available in the `Demo <http://demo.geomoose.org/3.0/>`_ and all
 3.0 Development
 ^^^^^^^^^^^^^^^
 
-Development on a fresh new GeoMoose 3.0 is getting really exciting! We've put together a great new architecture while working hard to keep GeoMoose familiar to users and administrators.  Check out the activity on `GitHub <https://github.com/geomoose/gm3>`_ and the new `Demo <http://demo.geomoose.org/3.0/>`_.
+Development on a fresh new GeoMoose 3.0 is getting really exciting! We've put together a great new architecture while working hard to keep GeoMoose familiar to users and administrators.  Check out the activity on `GitHub <https://github.com/geomoose/gm3>`_ and the new `Demo <https://demo.geomoose.org/3.0/>`_.
 
 
 1/12/2017 - GeoMoose Version 2.9.2 Released
