@@ -1,8 +1,8 @@
-GeoMoose
-********
+Page Not Found
+==============
 
-The file you were looking for was not found.
-============================================
+.. admonition:: Sorry
 
-We recently reorganized our site.  Most notably we split the `software documentation <http://docs.geomoose.org>`_ from the project's main `web page <http://www.geomoose.org>`_.
+	Sorry, but the page you were trying to view does not exist. This is likely the result of either a mistyped address or an out-of-date link.
 
+You can try searching with our "Quick Search" bar on the right, or starting from the top at :ref:`welcome`.
