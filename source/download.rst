@@ -56,7 +56,7 @@ If you're having problems with the download links above or are looking for an ol
 MS4W Installation Note
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Prior to unzipping the folder, please ensure you have the MS4W package installed on configured. There are installation instructions located `here <http://docs.geomoose.org/docs/install_ms4w.html>`_.
+Prior to unzipping the folder, please ensure you have the MS4W package installed on configured. There are installation instructions located `here <http://docs.geomoose.org/docs/install_ms4w.html>`__.
 
 Note: The most recent versions of MS4W (3.1.0 and newer) can be downloaded from http://www.ms4w.com.  Older versions of MS4W (3.0.6 and older) are still available at http://www.maptools.org/ms4w/.
 
@@ -76,4 +76,4 @@ Historical Versions
 ^^^^^^^^^^^^^^^^^^^
 GeoMoose versions before 2.6.1 were developed in SVN. OSGeo graciously hosts our SVN repository.  https://svn.osgeo.org/geomoose/geomoose2
 
-The entire repository, including sandboxes and GeoMoose 1.X series code may be viewed from `here <http://trac.osgeo.org/geomoose/browser>`_.
+The entire repository, including sandboxes and GeoMoose 1.X series code may be viewed from `here <http://trac.osgeo.org/geomoose/browser>`__.

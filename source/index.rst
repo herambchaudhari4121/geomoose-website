@@ -35,14 +35,18 @@ GeoMoose Gallery
 See working examples of real-world GeoMoose implementations. By viewing the GeoMoose :doc:`Gallery <info/gallery>`.
 
 
-.. Silence not in toctree errors for toolbar/main page linked pages
+.. Silence not in toctree warnings for toolbar/main page linked pages
 .. toctree::
   :hidden:
 
+  404
+  demos
   developer/index
   documentation
   download
   faq
   info/gallery
+  news
   quickstart
   support
+  wiki

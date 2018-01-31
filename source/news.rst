@@ -64,3 +64,8 @@ Finally, a huge **thank you** to the MN.IT with the Minnesota DOT. They provided
 
 :doc:`info/old_news`
 
+.. Silence not in toctree warnings for toolbar/main page linked pages
+.. toctree::
+  :hidden:
+
+  info/old_news

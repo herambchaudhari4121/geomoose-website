@@ -14,6 +14,13 @@ Why GeoMoose?
 
 	.. include:: info/why_text.rst
 
+.. Silence not in toctree warnings for toolbar/main page linked pages
+.. toctree::
+  :hidden:
+
+  info/why
+
+
 How long has GeoMoose existed?
 ------------------------------
 
