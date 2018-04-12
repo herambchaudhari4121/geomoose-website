@@ -1,0 +1,23 @@
+.. _3.2.0_Release:
+
+GeoMoose 3.2.0 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Fixed bug with identify and Mapserver/PostGIS/WFS
+* Removed site.css from default desktop demo.
+* Updated names for searches for better clarity.
+* Point-based searches now use `zoomTo` API call instead of `zoomToExtent`
+* Fixed buggy behaviour with Identify when there was no selected point.
+* Fixed bug with the table not showing after an identify was run.
+
+Other
+-----
+
+* `Major update to the build system <https://github.com/geomoose/gm3/pull/296>`_
+  Only small code changes ere required but WebPack and Babel are now both running
+  on their latest versions.  This also allowed upgrading to the latest OpenLayers
+  and React versions.
+

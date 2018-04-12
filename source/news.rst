@@ -1,6 +1,17 @@
 GeoMoose News
 =============
 
+4/12/2018 - GeoMoose 3.2.0 Release
+----------------------------------
+
+After fighting quite a few dependency demons in NPM, we've taken
+the time to update the build system! All of our dependencies are
+now on the the latest versions.  We've also started to add the
+npm "lock" file to the repo to prevent inconsistencies with build
+and testing.
+
+:ref:`3.2.0_Release` has more details on all the fixed bugs!
+
 11/28/2017 - GeoMoose 3.1.0 Release
 -----------------------------------
 
