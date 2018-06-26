@@ -1,0 +1,10 @@
+.. _3.2.1_Release:
+
+GeoMoose 3.2.1 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Added a polyfill to fix an IE11 bug introduced in 3.2.0.
+

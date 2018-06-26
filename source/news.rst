@@ -1,6 +1,13 @@
 GeoMoose News
 =============
 
+6/25/2018 - GeoMoose 3.2.1 Release
+----------------------------------
+
+Add a polyfill to fix an IE11 regression in 3.2.0.
+
+:ref:`3.2.1_Release` has more details on all the fixed bugs!
+
 4/12/2018 - GeoMoose 3.2.0 Release
 ----------------------------------
 
