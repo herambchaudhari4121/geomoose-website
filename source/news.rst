@@ -1,12 +1,22 @@
 GeoMoose News
 =============
 
+8/13/2018 - Performance improvements coming
+-------------------------------------------
+
+Finding GeoMoose 3 a little slow? Tests between GeoMoose 2.X and 3
+initially showed quite a few performance benefits. We have still
+found this to be true but there's always room for improvement! A few 
+major components were doing extra memoization and  taking up way
+too much memory.
+
+The branch with the performance improvements is still a work in progress
+but for this interested the pull request can be found `here <https://github.com/geomoose/gm3/pull/314>`_!
+
 6/25/2018 - GeoMoose 3.2.1 Release
 ----------------------------------
 
 Add a polyfill to fix an IE11 regression in 3.2.0.
-
-:ref:`3.2.1_Release` has more details on all the fixed bugs!
 
 4/12/2018 - GeoMoose 3.2.0 Release
 ----------------------------------
