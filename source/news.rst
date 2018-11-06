@@ -1,6 +1,23 @@
 GeoMoose News
 =============
 
+11/6/2018 - GeoMoose 2.x Retirement - April 2019
+------------------------------------------------
+
+Summary:
+
+Due to GeoMoose 2.x requiring now very old versions of it dependences it is becoming increasingly difficult to support.  As such, the GeoMoose team is announcing retirement for the GeoMoose 2.x series as April 2019.
+
+This doesn't mean your older GeoMoose installations will suddenly stop working.  However, the GeoMoose 2.9 demo (on https://demo.geomoose.org/2.9) will be shutdown and the development team won't have ready access to develop and test changes to the 2.x series. As such, the GeoMoose team recommends upgrading to GeoMoose 3.x.
+
+
+Details:
+
+GeoMoose 2.x requires old versions of Dojo (1.6) and OpenLayers (2.13). Neither of these libraries are currently under development or supported upstream. Updating to current versions of these libraries requires major reworking of the GeoMoose 2.x code.  (In fact, this is what prompted the development of the GeoMoose 3.x series).
+
+The bigger problem is that PHP services shipped with GeoMoose 2.x require PHP 5 and PHP MapScript.  These don't exist in recent Linux distributions (e.g. Debian Stretch/Ubuntu 16.04 and newer).  The April 2019 date is set to coincide with Ubuntu 14.04 EOL.
+
+
 8/13/2018 - Performance improvements coming
 -------------------------------------------
 
