@@ -1,6 +1,12 @@
 GeoMoose News
 =============
 
+Febuary 6, 2019 - GeoMoose 3.3.0 Release
+----------------------------------------
+
+Lots of bug fixes and a few new features.  See :ref:`3.3.0_Release` for details.
+
+
 11/6/2018 - GeoMoose 2.x Retirement - April 2019
 ------------------------------------------------
 

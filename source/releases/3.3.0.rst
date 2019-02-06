@@ -1,0 +1,26 @@
+.. _3.3.0_Release:
+
+GeoMoose 3.3.0 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Documentation fixes.
+* Fixes to Coordinate Display logic.
+* Refactor to fix internal state issues.
+* Update build system linter (to keep out "bad" code).
+* Fix tests as much as possible on Windows (make canvas/xmlshim optional)
+* Prevent zoom-to-point causing causing the singularity (set minimum zoom bounding box).
+
+
+New Features
+------------
+
+* Update to OpenLayers 5
+* Add support for validating user-entered data in fields of a query.
+* Restore min/max-resolution support for layers in catalog.  (Note: this is similar to min/max-scale in GeoMoose 2.9 but uses different units for OpenLayers 3+).
+* Allow admin to configure selection/results.
+* Allow labeling draw tools in services.
+* Added support for OR operator in queries.
+
