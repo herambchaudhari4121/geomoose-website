@@ -9,7 +9,7 @@ Bug Fixes
 * Documentation fixes.
 * Fixes to Coordinate Display logic.
 * Refactor to fix internal state issues.
-* Update build system linter (to keep out "bad" code).
+* Update build system linter (to keep code clean).
 * Fix tests as much as possible on Windows (make canvas/xmlshim optional)
 * Prevent zoom-to-point causing the singularity (set minimum zoom bounding box).
 
