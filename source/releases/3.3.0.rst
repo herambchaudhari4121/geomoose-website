@@ -11,7 +11,7 @@ Bug Fixes
 * Refactor to fix internal state issues.
 * Update build system linter (to keep out "bad" code).
 * Fix tests as much as possible on Windows (make canvas/xmlshim optional)
-* Prevent zoom-to-point causing causing the singularity (set minimum zoom bounding box).
+* Prevent zoom-to-point causing the singularity (set minimum zoom bounding box).
 
 
 New Features
