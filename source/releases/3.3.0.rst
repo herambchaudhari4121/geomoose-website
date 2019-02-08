@@ -23,4 +23,4 @@ New Features
 * Allow admin to configure selection/results.
 * Allow labeling draw tools in services.
 * Added support for OR operator in queries.
-
+* Allow admins to change styling of highlight and results layers.
