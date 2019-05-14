@@ -6,10 +6,10 @@ Documentation
 Stable Releases
 ^^^^^^^^^^^^^^^
 * `GeoMoose 3.0 Docs <https://geomoose.github.io/gm3/>`__
-* `GeoMoose 2.9 Docs <https://docs.geomoose.org/2.9/index.html>`__ (`PDF <https://docs.geomoose.org/2.9/GeoMOOSE.pdf>`__)
 
 Older Releases
 ^^^^^^^^^^^^^^
+* `GeoMoose 2.9 Docs <https://docs.geomoose.org/2.9/index.html>`__ (`PDF <https://docs.geomoose.org/2.9/GeoMOOSE.pdf>`__)
 * `GeoMoose 2.8 Docs <https://docs.geomoose.org/2.8/index.html>`__ (`PDF <https://docs.geomoose.org/2.8/GeoMOOSE.pdf>`__)
 * `GeoMoose 2.7 Docs <https://docs.geomoose.org/2.7/index.html>`__ (`PDF <https://docs.geomoose.org/2.7/GeoMOOSE.pdf>`__)
 * `GeoMoose 2.6 Docs <https://docs.geomoose.org/2.6/index.html>`__ (`PDF <https://docs.geomoose.org/2.6/GeoMOOSE.pdf>`__)
