@@ -1,7 +1,13 @@
 GeoMoose News
 =============
 
-Febuary 6, 2019 - GeoMoose 3.3.0 Release
+5/17/2019 - GeoMoose 3.3.1 Release
+----------------------------------
+
+Fixed a few major bugs from the OpenLayers 5 upgrade and
+corrected a few long standing issues. See :ref:`3.3.1_Release` for more!
+
+2/6/2019 - GeoMoose 3.3.0 Release
 ----------------------------------------
 
 Lots of bug fixes and a few new features.  See :ref:`3.3.0_Release` for details.

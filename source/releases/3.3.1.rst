@@ -1,0 +1,23 @@
+.. _3.3.1_Release:
+
+GeoMoose 3.3.1 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Added padding around the catalog and tabs.
+* Fixed projection/measurement issues with buffers.
+* Fixed state management issue when switching services
+  without completing the first service.
+* Fixed bug with the close button not finishing the
+  service.
+* Fixed bug with AGS vector layers not loading (OL5 upgrade artifact).
+* Removed errant console.log statements and upgraded
+  the linter to fail when it finds them into the future.
+
+
+New Features
+------------
+
+* No major feature releases but the bug fix list is epic and worthwhile.
