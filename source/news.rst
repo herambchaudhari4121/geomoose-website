@@ -1,6 +1,12 @@
 GeoMoose News
 =============
 
+8/30/2019 - GeoMoose 3.4.0 Release
+----------------------------------
+
+Fixed select with autogo=true.  Added support for attribution on the map.
+See :ref:`3.4.0_Release` for more!
+
 5/17/2019 - GeoMoose 3.3.1 Release
 ----------------------------------
 
