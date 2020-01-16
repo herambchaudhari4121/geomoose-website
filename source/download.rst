@@ -27,13 +27,13 @@ GeoMoose 3.4.0
 
 Nightly Development Builds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-	* `GeoMoose 3.4.1-beta for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.4.1-beta-ms4w.zip>`_ 
-	* `GeoMoose 3.4.0 Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.4.0-ms4w.zip>`_
+	* `GeoMoose 3.5.0-beta for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.5.0-beta-ms4w.zip>`_ 
+	* `GeoMoose 3.4.0-3-gb7fc049 Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.4.0-3-gb7fc049-ms4w.zip>`_
 
-	* `GeoMoose 3.4.1-beta for Linux <https://www.geomoose.org/downloads/gm3-examples-3.4.1-beta.zip>`_  
-	* `GeoMoose 3.4.0 Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.4.0.zip>`_
+	* `GeoMoose 3.5.0-beta for Linux <https://www.geomoose.org/downloads/gm3-examples-3.5.0-beta.zip>`_  
+	* `GeoMoose 3.4.0-3-gb7fc049 Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.4.0-3-gb7fc049.zip>`_
 
-	* `GeoMoose 3.4.1-beta NPM package <https://www.geomoose.org/downloads/gm3-npm-3.4.1-beta.tgz>`_
+	* `GeoMoose 3.5.0-beta NPM package <https://www.geomoose.org/downloads/gm3-npm-3.5.0-beta.tgz>`_
 
 
 GeoMoose 2.X
