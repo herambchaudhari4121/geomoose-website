@@ -1,0 +1,37 @@
+.. _3.5.0_Release:
+
+GeoMoose 3.5.0 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* More autoGo=true fixes
+* Fix for cross-origin WMS requests
+* Fix resolution/page size state bugs when restarting print tool
+* Fix printing international characters
+* Fix drawing/tool state issues
+* Fix coordinate display precision issues
+* Fix keyboard bypass of field checks
+* Fix identify tool on mobile example
+
+New Features
+------------
+
+* Add box drawing tool
+* Mobile example overhaul
+
+  * Remove JQuery
+  * Fix CSS issues
+* Updated Documentation
+* Improved tab toggler
+* Add scale-line to printout
+* Renamed npm package to @geomoose/gm3 for publishing on npm
+* Add Zoom Jumper (jump-to-zoom control)
+* CSS updates and cleanup
+* Tests cleanup
+* New npm based build system (drop Grunt)
+* Add highlighting to search results
+* Update measure tool to include initialUnits
+* Add hidden inputType for services
+
