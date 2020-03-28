@@ -1,0 +1,11 @@
+.. _3.5.1_Release:
+
+GeoMoose 3.5.1 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Fix missing IE11 polyfill (#474).
+* Fix tool not selected after error in select (#473).
+
