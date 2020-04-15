@@ -1,6 +1,16 @@
 GeoMoose News
 =============
 
+4/15/2020 - More new features coming soon!
+------------------------------------------
+
+A big thanks to some generous sponsorship have helped move a
+few GeoMoose features forward!
+
+ * New search examples that demonstrate how to do a single-search field to search multiple fields.
+ * Upgraded OpenLayers to OpenLayers 6.1! This has a ton of performance improvements and enables better vector styling.
+ * Thanks to the upgrade in OpenLayers, the Drawing and Markup layer will get labels!
+
 3/28/2020 - GeoMoose 3.5.1 Release
 ----------------------------------
 
@@ -38,7 +48,7 @@ Lots of bug fixes and a few new features.  See :ref:`3.3.0_Release` for details.
 
 Summary:
 
-Due to GeoMoose 2.x requiring now very old versions of it dependences it is becoming increasingly difficult to support.  As such, the GeoMoose team is announcing retirement for the GeoMoose 2.x series as April 2019.
+Due to GeoMoose 2.x requiring now very old versions of it dependencies it is becoming increasingly difficult to support.  As such, the GeoMoose team is announcing retirement for the GeoMoose 2.x series as April 2019.
 
 This doesn't mean your older GeoMoose installations will suddenly stop working.  However, the GeoMoose 2.9 demo (on https://demo.geomoose.org/2.9) will be shutdown and the development team won't have ready access to develop and test changes to the 2.x series. As such, the GeoMoose team recommends upgrading to GeoMoose 3.x.
 
