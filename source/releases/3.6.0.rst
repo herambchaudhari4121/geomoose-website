@@ -28,6 +28,7 @@ New Features
 * `keepAlive` setting has been restored to Select. This allows the user to
   keep drawing new polygons even after results have returned.
 * Drawing and Markup layer now supports feature labels
+* Added new plug-in architecture for advanced integrations.
 
 Housecleaning and Maintenance
 -----------------------------
