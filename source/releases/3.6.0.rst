@@ -1,0 +1,42 @@
+.. _3.6.0_Release:
+
+GeoMoose 3.6.0 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Select behavior when defaulting to feature-select.
+* Startup services now set the state correctly and do not 
+  cause a refresh bug with coordinates in the URL hash.
+
+New Features
+------------
+
+* *i18n Support!* Includes English and Spanish translation dictionaries.
+  included
+* Buffer a result. This allows for buffering a specific result from a query
+  for follow up work.
+* WMS are now scale-aware and will re-fetch the legend when the map zoom changes.
+* Multiple features can be selected from a layer using the shift key for services
+  that allow selecting features from the map.
+* Added syntax to support a "list of likes" this allows searches to be 
+  configured to search multiple fields with multiple values with only partial
+  term matching and ignores case.
+* Services can now be configured to zoom to their results automatically.
+* The Grid can now be configured to start minimized.
+* `keepAlive` setting has been restored to Select. This allows the user to
+  keep drawing new polygons even after results have returned.
+* Drawing and Markup layer now supports feature labels
+
+Housecleaning and Maintenance
+-----------------------------
+
+* OpenLayers and React have both been upgraded to their most
+  recent versions.
+* Unnecessary state has been removed from a number of components.
+* When removing state, many components were ported to being functional
+  components and using hooks for better performance.
+* ol-mapbox-style has been upgraded instead of the old pinned version
+  that was used internally.
+* Documentation for all of the above has been added!

@@ -1,6 +1,30 @@
 GeoMoose News
 =============
 
+5/27/2020 - GeoMoose 3.6.0 Release
+----------------------------------
+
+This is a *giant one*! A lot of work has gone into new features
+and bringing up parity with the last 2.X versions of GeoMoose.
+
+The release notes have a complete list but these are some of the highlights:
+
+* i18n support! Yes! Translation is available for nearly every element in the UI.
+  The translation tools are even applied to labels coming in from the mapbook, allowing
+  the mapbook to more language agnostic as well as the built-in tools and strings!
+* More search options! The demo has been configured to allow for a number of improved
+  searching options. Including the ability to search multiple fields with multiple search terms!
+* Drawing and Markup layer now supports labels!
+* The Select service now supports keepAlive. This allows keeping the last draw tool "alive" after results have returned to allow repeated selections.
+* Results from the grid can now be buffered! There is a new tool to allow buffering a specific result from the table. This is fuller realized version of the GM 2.X "buffer follow up" service.
+* A number of state-bugs have been fixed and internal state has been simplified
+  to prevent them in the future.
+* React, OpenLayers, and the associated dependencies have all been upgraded to their latest versions.
+
+
+See :ref:`3.6.0_Release` for more!
+
+
 4/15/2020 - More new features coming soon!
 ------------------------------------------
 
