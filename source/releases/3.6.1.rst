@@ -1,0 +1,11 @@
+.. _3.6.1_Release:
+
+GeoMoose 3.6.1 Release Notes
+============================
+
+Bug Fixes
+---------
+
+* Fixed bug with identify geometry.
+* Fixed bug with queries on AGS layers.
+* Fixed bug with attempting to zoom to an empty results set.
