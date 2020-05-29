@@ -8,18 +8,18 @@ GeoMoose 3.x
 
 GeoMoose 3 separates the data used in our examples from the application code. For a first time install, both a demo dataset and an application is needed. For more information read the `Quickstart <./quickstart.html>`_.
 
-GeoMoose 3.6.0
+GeoMoose 3.6.1
 ^^^^^^^^^^^^^^
 
 **MS4W**
 
 	* `GeoMoose 3.6.1 for MS4W <https://www.geomoose.org/downloads/gm3-examples-3.6.1-ms4w.zip>`_
-	* `GeoMoose 3.6.0 Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.6.0-ms4w.zip>`_
+	* `GeoMoose 3.6.0+ Demo Dataset for MS4W <https://www.geomoose.org/downloads/gm3-demo-data-3.6.0-ms4w.zip>`_
 
 **Linux**
 
 	* `GeoMoose 3.6.1 for Linux <https://www.geomoose.org/downloads/gm3-examples-3.6.1.zip>`_
-	* `GeoMoose 3.6.0 Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.6.0.zip>`_
+	* `GeoMoose 3.6.0+ Demo Dataset <https://www.geomoose.org/downloads/gm3-demo-data-3.6.0.zip>`_
 
 **NPM**
 
@@ -56,9 +56,9 @@ If you're having problems with the download links above or are looking for an ol
 MS4W Installation Note
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Prior to unzipping the folder, please ensure you have the MS4W package installed on configured. There are installation instructions located `here <https://docs.geomoose.org/docs/install_ms4w.html>`__.
+Prior to unzipping the folder, please ensure you have MS4W (MapServer for Windows) installed & configured. There are installation instructions located `here <https://docs.geomoose.org/docs/install_ms4w.html>`__.
 
-Note: The most recent versions of MS4W (3.2.0 and newer) can be downloaded from http://www.ms4w.com.  Older versions of MS4W (3.0.6 and older) are still available at http://www.maptools.org/ms4w/.
+ .. note:: MS4W can be downloaded from https://ms4w.com.  All previous versions of MS4W can be found at https://ms4w.com/release/
 
 If you are upgrading from a previous GeoMoose version, ensure you back up all files prior to extracting this zip archive.
 
