@@ -53,15 +53,22 @@ Other Packages
 
 If you're having problems with the download links above or are looking for an older package `check here <https://www.geomoose.org/downloads/>`_
 
-MS4W Installation Note
-^^^^^^^^^^^^^^^^^^^^^^
+Windows Installation Notes
+--------------------------
 
-Prior to unzipping the folder, please ensure you have MS4W (MapServer for Windows) installed & configured. There are installation instructions located `here <https://docs.geomoose.org/docs/install_ms4w.html>`__.
+MS4W (MapServer for Windows)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Prior to unzipping the folder, please ensure you have MS4W installed & configured. There are installation instructions located :ref:`here <quickstart>`.
 
  .. note:: MS4W can be downloaded from https://ms4w.com.  All previous versions of MS4W can be found at https://ms4w.com/release/
 
 If you are upgrading from a previous GeoMoose version, ensure you back up all files prior to extracting this zip archive.
 
+Microsoft IIS
+^^^^^^^^^^^^^
+
+There are some (older) notes available for help with installing GeoMoose on IIS `here <https://docs.geomoose.org/2.9/docs/install_ms4w.html#step-3b-configuring-microsoft-iis-6-0-web-server>`__.
 
 Source Code
 -----------
