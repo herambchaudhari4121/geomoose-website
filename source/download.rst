@@ -59,7 +59,7 @@ Windows Installation Notes
 MS4W (MapServer for Windows)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Prior to unzipping the folder, please ensure you have MS4W installed & configured. There are installation instructions located :ref:`here <quickstart>`.
+Prior to unzipping the folder, please ensure you have MS4W installed & configured. There are installation instructions located `here <https://geomoose.github.io/gm3/ms4w-quickstart/>`__.
 
  .. note:: MS4W can be downloaded from https://ms4w.com.  All previous versions of MS4W can be found at https://ms4w.com/release/
 
