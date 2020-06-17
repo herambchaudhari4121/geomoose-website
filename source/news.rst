@@ -1,6 +1,14 @@
 GeoMoose News
 =============
 
+6/17/2020 - GeoMoose 3.6.2 - Bug fix release
+--------------------------------------------
+
+Squashed a few more bugs that made their way into 3.6.
+
+:ref:`3.6.2_Release` details what was fixed.
+
+
 5/28/2020 - GeoMoose 3.6.1 - The beauty of open source
 ------------------------------------------------------
 

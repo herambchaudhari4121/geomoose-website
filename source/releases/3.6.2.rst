@@ -1,0 +1,21 @@
+.. _3.6.2_Release:
+
+GeoMoose 3.6.2 Release Notes
+============================
+
+Features
+--------
+* Add `lonLatToMeters` and `bboxToMeters` utility functions to Application class. (Oops, a small feature slipped into a patch release).
+
+Bug Fixes
+---------
+
+* Many documentation updates.
+* Fix passing parameters to AGS layers.
+* Fix identify on vector layers.
+* Fix not showing service results in mobile example.
+* Fix service select inputs when there is no default set.
+* Fix missing tool-tips on layers in catalog.
+* Fix wrong tool selected on service restarts.
+
+
