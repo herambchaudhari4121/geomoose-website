@@ -1,6 +1,18 @@
 GeoMoose News
 =============
 
+9/14/2020 - Happenings in the 'Moose World
+------------------------------------------
+
+Hey folks! I'ts been a few months since a release but we 
+are actively working on a 3.7! We are also doing some planning
+on longer term projects such as updating the styling APIs
+and bringing back editing.
+
+We are also seeking anyone interested in participating more actively
+in the project by becoming involved in the PSC. Feel free to email the
+mailing list, or the PSC chair directly (theduckylittle / gmail.com).
+
 6/17/2020 - GeoMoose 3.6.2 - Bug fix release
 --------------------------------------------
 
